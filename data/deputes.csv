@@ -1,0 +1,578 @@
+Dpt;Département;Nom de la Circonscription;Désignation;Nuance;Score;Sortant;Perso.;Né(e)_le;Profession;Tour
+01;AIN;1ère circonscription;M. BRETON Xavier;UMP;51,57%;O;DEP;25/11/1962;Autre profession;2
+01;AIN;2ème circonscription;M. DE LA VERPILLIERE Charles;UMP;44,31%;O;DEP;31/05/1954;Autre profession;2
+01;AIN;3ème circonscription;M. BLANC Etienne;UMP;55,16%;O;DEP;29/08/1954;Avocat;2
+01;AIN;4ème circonscription;M. VOISIN Michel;UMP;56,95%;O;DEP;06/10/1944;Expert comptable;2
+01;AIN;5ème circonscription;M. ABAD Damien;UMP;56,40%;;;05/04/1980;Sans profession déclarée;2
+02;AISNE;1ère circonscription;M. DOSIERE René;DVG;42,19%;O;DEP;03/08/1941;Retraité salarié privé;2
+02;AISNE;2ème circonscription;M. BERTRAND Xavier;UMP;50,25%;O;DEP;21/03/1965;Agent général d'assurances;2
+02;AISNE;3ème circonscription;M. BRICOUT Jean-Louis;SOC;54,31%;;;27/12/1957;Autre cadre (secteur privé);2
+02;AISNE;4ème circonscription;Mme BECHTEL Marie-Françoise;DVG;53,62%;;;19/03/1946;Grands corps de l'état;2
+02;AISNE;5ème circonscription;M. KRABAL Jacques;RDG;42,21%;;;10/04/1948;Retraité de l'enseignement;2
+03;ALLIER;1ère circonscription;M. CHAMBEFORT Guy;SOC;57,62%;O;DEP;14/10/1944;Retraité de l'enseignement;2
+03;ALLIER;2ème circonscription;M. LESTERLIN Bernard;SOC;59,24%;O;DEP;18/09/1949;Retraité fonct.publique (sf enseig.);2
+03;ALLIER;3ème circonscription;M. CHARASSE Gérard;RDG;57,37%;O;DEP;26/03/1944;Retraité de l'enseignement;2
+04;ALPES DE HAUTE PROVENCE;1ère circonscription;M. SAUVAN Gilbert;SOC;58,60%;;;15/07/1956;Fonctionnaire de catégorie B;2
+04;ALPES DE HAUTE PROVENCE;2ème circonscription;M. CASTANER Christophe;SOC;54,04%;;;03/01/1966;Autre profession;2
+05;HAUTES ALPES;1ère circonscription;Mme BERGER Karine;SOC;54,71%;;;11/03/1973;Cadre supérieur (secteur privé);2
+05;HAUTES ALPES;2ème circonscription;M. GIRAUD Joël;RDG;57,46%;O;DEP;14/10/1959;Grands corps de l'état;2
+06;ALPES MARITIMES;1ère circonscription;M. CIOTTI Eric;UMP;60,73%;O;DEP,PCG;28/09/1965;Retr.artis.commerc.chef d entrep.;2
+06;ALPES MARITIMES;2ème circonscription;M. GINESY Charles Ange;UMP;53,29%;;;14/05/1956;Industriel-Chef entreprise;2
+06;ALPES MARITIMES;3ème circonscription;M. SALLES Rudy;NCE;58,73%;O;DEP;30/07/1954;Sans profession déclarée;2
+06;ALPES MARITIMES;4ème circonscription;M. GUIBAL Jean-Claude;UMP;55,22%;O;DEP;13/01/1941;Autre retraité;2
+06;ALPES MARITIMES;5ème circonscription;M. ESTROSI Christian;UMP;63,41%;O;DEP,MAI;01/07/1955;Permanent politique;2
+06;ALPES MARITIMES;6ème circonscription;M. LUCA Lionnel;UMP;51,44%;O;DEP;19/12/1954;Professeur du secondaire et techn.;1
+06;ALPES MARITIMES;7ème circonscription;M. LEONETTI Jean;UMP;51,10%;O;DEP;09/07/1948;Médecin;1
+06;ALPES MARITIMES;8ème circonscription;M. BROCHAND Bernard;UMP;66,13%;O;DEP;05/06/1938;Retr.artis.commerc.chef d entrep.;2
+06;ALPES MARITIMES;9ème circonscription;Mme TABAROT Michèle;UMP;61,32%;O;DEP;13/10/1962;Autre profession;2
+07;ARDECHE;1ère circonscription;M. TERRASSE Pascal;SOC;67,20%;O;DEP,PCG;26/10/1964;Autre profession;2
+07;ARDECHE;2ème circonscription;M. DUSSOPT Olivier;SOC;53,35%;O;DEP;16/08/1978;Permanent politique;2
+07;ARDECHE;3ème circonscription;Mme BUIS Sabine;SOC;51,23%;;;15/09/1970;Professeur du secondaire et techn.;2
+08;ARDENNES;1ère circonscription;Mme POLETTI Bérengère;UMP;55,30%;O;DEP;14/10/1959;Salarié du secteur médical;2
+08;ARDENNES;2ème circonscription;M. LEONARD Christophe;SOC;53,63%;;;31/01/1971;Fonctionnaire de catégorie A;2
+08;ARDENNES;3ème circonscription;M. WARSMANN Jean-Luc;UMP;52,50%;O;DEP;22/10/1965;Sans profession déclarée;1
+09;ARIEGE;1ère circonscription;Mme MASSAT Frédérique;SOC;51,69%;O;DEP;14/01/1964;Fonctionnaire de catégorie A;1
+09;ARIEGE;2ème circonscription;M. FAURÉ Alain;SOC;67,03%;;;01/10/1962;Industriel-Chef entreprise;2
+10;AUBE;1ère circonscription;M. DHUICQ Nicolas;UMP;44,18%;O;DEP;29/11/1960;Médecin;2
+10;AUBE;2ème circonscription;M. MATHIS Jean-Claude;UMP;57,24%;O;DEP;15/08/1939;Administrateur de sociétés;2
+10;AUBE;3ème circonscription;M. BAROIN François;UMP;56,45%;O;DEP;21/06/1965;Avocat;2
+11;AUDE;1ère circonscription;M. PEREZ Jean-Claude;SOC;60,97%;O;DEP;31/03/1964;Permanent politique;2
+11;AUDE;2ème circonscription;Mme FABRE Marie-Hélène;SOC;56,83%;;;27/07/1951;Permanent politique;2
+11;AUDE;3ème circonscription;M. DUPRE Jean-Paul;SOC;62,95%;O;DEP;05/02/1944;Retraité salarié privé;2
+12;AVEYRON;1ère circonscription;M. CENSI Yves;UMP;50,67%;O;DEP;08/02/1964;Autre cadre (secteur privé);2
+12;AVEYRON;2ème circonscription;Mme MARCEL Marie-Lou;SOC;63,49%;O;DEP;21/08/1953;Autre cadre (secteur privé);2
+12;AVEYRON;3ème circonscription;M. MARC Alain;UMP;53,95%;O;DEP;29/01/1957;Retraité de l'enseignement;2
+13;BOUCHES DU RHONE;1ère circonscription;Mme BOYER Valérie;UMP;50,65%;O;DEP;11/06/1962;Fonctionnaire de catégorie A;2
+13;BOUCHES DU RHONE;2ème circonscription;M. TIAN Dominique;UMP;58,46%;O;DEP;14/12/1959;Administrateur de sociétés;2
+13;BOUCHES DU RHONE;3ème circonscription;Mme ANDRIEUX Sylvie;SOC;50,99%;O;DEP;15/12/1961;Cadre supérieur (secteur privé);2
+13;BOUCHES DU RHONE;4ème circonscription;M. MENNUCCI Patrick;SOC;70,51%;;;08/04/1955;Permanent politique;2
+13;BOUCHES DU RHONE;5ème circonscription;Mme CARLOTTI Marie-Arlette;SOC;51,81%;;MIN;21/01/1952;Autre cadre (secteur privé);2
+13;BOUCHES DU RHONE;6ème circonscription;M. TEISSIER Guy;UMP;42,45%;O;DEP;04/04/1945;Cadre supérieur (secteur privé);2
+13;BOUCHES DU RHONE;7ème circonscription;M. JIBRAYEL Henri;SOC;62,34%;O;DEP;18/09/1951;Retraité fonct.publique (sf enseig.);2
+13;BOUCHES DU RHONE;8ème circonscription;M. FERRAND Olivier;SOC;40,48%;;;08/11/1969;Fonctionnaire de catégorie A;2
+13;BOUCHES DU RHONE;9ème circonscription;M. DEFLESSELLES Bernard;UMP;62,56%;O;DEP;16/10/1953;Ingénieur;2
+13;BOUCHES DU RHONE;10ème circonscription;M. LAMBERT François-Michel;VEC;41,64%;;;24/08/1966;Autre profession libérale;2
+13;BOUCHES DU RHONE;11ème circonscription;M. KERT Christian;UMP;50,98%;O;DEP;25/07/1946;Sans profession déclarée;2
+13;BOUCHES DU RHONE;12ème circonscription;M. BURRONI Vincent;SOC;37,34%;;;01/10/1947;Retraité salarié privé;2
+13;BOUCHES DU RHONE;13ème circonscription;M. CHARROUX Gaby;FG;60,28%;;;25/06/1942;Retraité de l'enseignement;2
+13;BOUCHES DU RHONE;14ème circonscription;M. CIOT Jean-David;SOC;53,55%;;;01/05/1967;Autre profession;2
+13;BOUCHES DU RHONE;15ème circonscription;M. REYNES Bernard;UMP;41,60%;O;DEP;18/10/1953;Sans profession déclarée;2
+13;BOUCHES DU RHONE;16ème circonscription;M. VAUZELLE Michel;SOC;51,29%;O;DEP,PCR;15/08/1944;Avocat;2
+14;CALVADOS;1ère circonscription;M. DURON Philippe;SOC;56,94%;O;DEP,MAI;19/06/1947;Retraité de l'enseignement;2
+14;CALVADOS;2ème circonscription;Mme DUMONT Laurence;SOC;62,49%;O;DEP;02/06/1958;Sans profession déclarée;2
+14;CALVADOS;3ème circonscription;Mme VALTER Clotilde;SOC;51,20%;;;24/06/1962;Grands corps de l'état;2
+14;CALVADOS;4ème circonscription;Mme AMELINE Nicole;UMP;52,89%;O;DEP;04/07/1952;Permanent politique;2
+14;CALVADOS;5ème circonscription;Mme ATTARD Isabelle;VEC;50,71%;;;14/11/1969;Fonctionnaire de catégorie A;2
+14;CALVADOS;6ème circonscription;M. TOURRET Alain;RDG;53,27%;;;25/12/1947;Avocat;2
+15;CANTAL;1ère circonscription;M. CALMETTE Alain;SOC;51,63%;;;30/11/1957;Fonctionnaire de catégorie A;2
+15;CANTAL;2ème circonscription;M. MARLEIX Alain;UMP;50,24%;O;DEP;02/01/1946;Retraité salarié privé;1
+16;CHARENTE;1ère circonscription;Mme PINVILLE Martine;SOC;50,08%;O;DEP;23/10/1958;Retraité fonct.publique (sf enseig.);1
+16;CHARENTE;2ème circonscription;Mme REYNAUD Marie-Line;SOC;57,08%;O;DEP;17/07/1954;Sans profession déclarée;2
+16;CHARENTE;3ème circonscription;M. LAMBERT Jérôme;SOC;54,24%;O;DEP;07/06/1957;Cadre supérieur (secteur privé);1
+17;CHARENTE MARITIME;1ère circonscription;M. FALORNI Olivier;DVG;62,98%;;;27/03/1972;Professeur du secondaire et techn.;2
+17;CHARENTE MARITIME;2ème circonscription;Mme TALLARD Suzanne;SOC;52,99%;;;19/06/1943;Retraité de l'enseignement;2
+17;CHARENTE MARITIME;3ème circonscription;Mme QUERE Catherine;SOC;59,12%;O;DEP;16/03/1948;Retraité agricole;2
+17;CHARENTE MARITIME;4ème circonscription;M. BUSSEREAU Dominique;UMP;52,15%;O;DEP,PCG;13/07/1952;Sans profession déclarée;2
+17;CHARENTE MARITIME;5ème circonscription;M. QUENTIN Didier;UMP;53,99%;O;DEP,MAI;23/12/1946;Sans profession déclarée;2
+18;CHER;1ère circonscription;M. FROMION Yves;UMP;50,52%;O;DEP;15/09/1941;Grands corps de l'état;2
+18;CHER;2ème circonscription;M. SANSU Nicolas;FG;100,00%;;;17/06/1968;Permanent politique;2
+18;CHER;3ème circonscription;M. GALUT Yann;SOC;55,46%;;;11/03/1966;Avocat;2
+19;CORREZE;1ère circonscription;Mme DESSUS Sophie;SOC;51,45%;;;24/09/1955;Sans profession déclarée;1
+19;CORREZE;2ème circonscription;M. NAUCHE Philippe;SOC;58,96%;O;DEP;15/07/1957;Médecin;2
+2A;CORSE SUD;1ère circonscription;M. MARCANGELI Laurent;UMP;50,52%;;;10/12/1980;Avocat;2
+2A;CORSE SUD;2ème circonscription;M. DE ROCCA SERRA Camille;UMP;53,20%;O;DEP;21/05/1954;Sans profession déclarée;2
+2B;HAUTE CORSE;1ère circonscription;M. GANDOLFI-SCHEIT Sauveur;UMP;38,07%;O;DEP;19/01/1947;Médecin;2
+2B;HAUTE CORSE;2ème circonscription;M. GIACOBBI Paul;RDG;64,34%;O;DEP,PCC;04/06/1957;Grands corps de l'état;2
+21;COTE D'OR;1ère circonscription;M. GRANDGUILLAUME Laurent;SOC;52,33%;;;20/01/1978;Fonctionnaire de catégorie A;2
+21;COTE D'OR;2ème circonscription;M. DELATTE Rémi;UMP;52,00%;O;DEP;09/06/1956;Agriculteur-propriétaire exploit.;2
+21;COTE D'OR;3ème circonscription;Mme BOUZIANE Kheira;SOC;53,05%;;;23/08/1953;Professeur du secondaire et techn.;2
+21;COTE D'OR;4ème circonscription;M. SAUVADET François;NCE;53,03%;;PCG;20/04/1953;Journaliste et autre média;2
+21;COTE D'OR;5ème circonscription;M. SUGUENOT Alain;UMP;56,24%;O;DEP;17/09/1951;Avocat;2
+22;COTES D'ARMOR;1ère circonscription;M. LESAGE Michel;SOC;65,86%;;;02/06/1952;Autre cadre (secteur privé);2
+22;COTES D'ARMOR;2ème circonscription;Mme LE DISSEZ Viviane;SOC;57,96%;;;22/03/1959;Retraité fonct.publique (sf enseig.);2
+22;COTES D'ARMOR;3ème circonscription;M. LE FUR Marc;UMP;54,28%;O;DEP;28/11/1956;Grands corps de l'état;2
+22;COTES D'ARMOR;4ème circonscription;Mme LE HOUEROU Annie;DVG;68,52%;;;31/03/1960;Fonctionnaire de catégorie A;2
+22;COTES D'ARMOR;5ème circonscription;Mme ERHEL Corinne;SOC;63,97%;O;DEP;03/02/1967;Autre profession;2
+23;CREUSE;1ère circonscription;M. VERGNIER Michel;SOC;57,55%;O;DEP;25/11/1946;Retraité de l'enseignement;2
+24;DORDOGNE;1ère circonscription;M. DEGUILHEM Pascal;SOC;65,99%;O;DEP,MAI;09/02/1956;Professeur du secondaire et techn.;2
+24;DORDOGNE;2ème circonscription;Mme ALLAIN Brigitte;VEC;53,19%;;;23/04/1956;Agriculteur-propriétaire exploit.;2
+24;DORDOGNE;3ème circonscription;Mme LANGLADE Colette;SOC;51,74%;O;DEP;20/06/1956;Professeur du secondaire et techn.;1
+24;DORDOGNE;4ème circonscription;M. PEIRO Germinal;SOC;51,26%;O;DEP,MAI;15/09/1953;Enseignant 1er deg.-directeur école;1
+25;DOUBS;1ère circonscription;Mme ROMAGNAN Barbara;SOC;54,73%;;;25/04/1974;Professeur du secondaire et techn.;2
+25;DOUBS;2ème circonscription;M. ALAUZET Eric;VEC;50,12%;;;07/06/1958;Médecin;2
+25;DOUBS;3ème circonscription;M. BONNOT Marcel;UMP;51,00%;O;DEP;24/05/1946;Avocat;2
+25;DOUBS;4ème circonscription;M. MOSCOVICI Pierre;SOC;49,32%;O;DEP,MIN;16/09/1957;Grands corps de l'état;2
+25;DOUBS;5ème circonscription;Mme GENEVARD Annie;UMP;62,54%;;;07/09/1956;Professeur du secondaire et techn.;2
+26;DROME;1ère circonscription;M. LABAUNE Patrick;UMP;51,87%;O;DEP;13/06/1951;Professeur de faculté;2
+26;DROME;2ème circonscription;M. REYNIER Franck;PRV;50,81%;O;DEP;20/10/1965;Autre cadre (secteur privé);2
+26;DROME;3ème circonscription;M. MARITON Hervé;UMP;51,00%;O;DEP;05/11/1958;Ingénieur;2
+26;DROME;4ème circonscription;Mme NIESON Nathalie;SOC;52,72%;;;26/03/1969;Sans profession déclarée;2
+27;EURE;1ère circonscription;M. LE MAIRE Bruno;UMP;57,97%;O;DEP;15/04/1969;Grands corps de l'état;2
+27;EURE;2ème circonscription;M. DESTANS Jean-Louis;SOC;50,04%;;PCG;03/03/1951;Grands corps de l'état;2
+27;EURE;3ème circonscription;M. MORIN Hervé;NCE;53,17%;O;DEP;17/08/1961;Fonctionnaire de catégorie A;2
+27;EURE;4ème circonscription;M. LONCLE François;SOC;57,05%;O;DEP;21/10/1941;Retraité salarié privé;2
+27;EURE;5ème circonscription;M. GILARD Franck;UMP;60,41%;O;DEP;01/11/1950;Autre profession libérale;2
+28;EURE ET LOIR;1ère circonscription;M. GORGES Jean-Pierre;UMP;50,80%;O;DEP;03/08/1953;Cadre supérieur (secteur privé);2
+28;EURE ET LOIR;2ème circonscription;M. MARLEIX Olivier;UMP;53,64%;;;06/02/1971;Fonctionnaire de catégorie A;2
+28;EURE ET LOIR;3ème circonscription;Mme DE LA RAUDIERE Laure;UMP;52,58%;O;DEP;12/02/1965;Industriel-Chef entreprise;2
+28;EURE ET LOIR;4ème circonscription;M. VIGIER Philippe;NCE;50,72%;O;DEP;03/02/1958;Pharmacien;1
+29;FINISTERE;1ère circonscription;M. URVOAS Jean-Jacques;SOC;62,74%;O;DEP;19/09/1959;Professeur de faculté;2
+29;FINISTERE;2ème circonscription;Mme ADAM Patricia;SOC;66,84%;O;DEP;15/04/1953;Autre cadre (secteur privé);2
+29;FINISTERE;3ème circonscription;M. BLEUNVEN Jean-Luc;DVG;52,29%;;;20/12/1958;Agriculteur-propriétaire exploit.;2
+29;FINISTERE;4ème circonscription;Mme LEBRANCHU Marylise;SOC;61,11%;O;DEP,MIN;25/04/1947;Autre profession;2
+29;FINISTERE;5ème circonscription;Mme GUITTET Chantal;SOC;57,10%;;;12/03/1955;Retraité de l'enseignement;2
+29;FINISTERE;6ème circonscription;M. FERRAND Richard;SOC;58,36%;;;01/07/1962;Autre cadre (secteur privé);2
+29;FINISTERE;7ème circonscription;Mme LE LOCH Annick;SOC;61,01%;O;DEP;04/11/1954;Commercant;2
+29;FINISTERE;8ème circonscription;M. LE BRIS Gilbert;SOC;65,78%;O;DEP;03/03/1949;Autre profession;2
+30;GARD;1ère circonscription;Mme DUMAS Françoise;SOC;41,89%;;;12/04/1960;Cadre supérieur (secteur privé);2
+30;GARD;2ème circonscription;M. COLLARD Gilbert;FN;42,82%;;;03/02/1948;Avocat;2
+30;GARD;3ème circonscription;M. PRAT Patrice;SOC;41,44%;;;28/11/1965;Autre profession libérale;2
+30;GARD;4ème circonscription;M. VERDIER Fabrice;SOC;52,10%;;;16/12/1968;Permanent politique;2
+30;GARD;5ème circonscription;M. DUMAS William;SOC;61,43%;O;DEP;23/01/1942;Retraité salarié privé;2
+30;GARD;6ème circonscription;M. CAVARD Christophe;VEC;43,09%;;;19/02/1970;Employé (secteur privé);2
+31;HAUTE GARONNE;1ère circonscription;Mme LEMORTON Catherine;SOC;64,75%;O;DEP;20/06/1961;Pharmacien;2
+31;HAUTE GARONNE;2ème circonscription;M. BAPT Gérard;SOC;64,91%;O;DEP;04/02/1946;Médecin;2
+31;HAUTE GARONNE;3ème circonscription;M. MOUDENC Jean-Luc;UMP;50,41%;;;19/07/1960;Grands corps de l'état;2
+31;HAUTE GARONNE;4ème circonscription;Mme MARTINEL Martine;SOC;65,91%;O;DEP;26/09/1953;Professeur du secondaire et techn.;2
+31;HAUTE GARONNE;5ème circonscription;Mme IMBERT Françoise;SOC;61,41%;O;DEP;16/09/1947;Autre profession;2
+31;HAUTE GARONNE;6ème circonscription;Mme IBORRA Monique;SOC;65,50%;O;DEP;08/03/1945;Retraité fonct.publique (sf enseig.);2
+31;HAUTE GARONNE;7ème circonscription;M. LEMASLE Patrick;SOC;63,62%;O;DEP;18/05/1952;Autre profession;2
+31;HAUTE GARONNE;8ème circonscription;Mme DELGA Carole;SOC;51,62%;;;19/08/1971;Fonctionnaire de catégorie A;1
+31;HAUTE GARONNE;9ème circonscription;M. BORGEL Christophe;SOC;64,62%;;;03/09/1963;Industriel-Chef entreprise;2
+31;HAUTE GARONNE;10ème circonscription;M. ARIF Kader;SOC;57,78%;;MIN;03/07/1959;Autre profession;2
+32;GERS;1ère circonscription;M. MARTIN Philippe;SOC;52,36%;O;DEP,PCG;22/11/1953;Grands corps de l'état;1
+32;GERS;2ème circonscription;Mme BIEMOURET Gisèle;SOC;59,38%;O;DEP;16/06/1952;Sans profession déclarée;2
+33;GIRONDE;1ère circonscription;Mme DOUCET Sandrine;SOC;51,49%;;;10/09/1959;Professeur du secondaire et techn.;2
+33;GIRONDE;2ème circonscription;Mme DELAUNAY Michèle;SOC;58,44%;O;DEP,MIN;08/01/1947;Médecin;2
+33;GIRONDE;3ème circonscription;M. MAMERE Noël;VEC;51,98%;O;DEP;25/12/1948;Journaliste et autre média;1
+33;GIRONDE;4ème circonscription;Mme LACUEY Conchita;SOC;67,23%;O;DEP;30/09/1943;Autre retraité;2
+33;GIRONDE;5ème circonscription;Mme GOT Pascale;SOC;61,91%;O;DEP;01/04/1961;Fonctionnaire de catégorie A;2
+33;GIRONDE;6ème circonscription;Mme RECALDE Marie;SOC;63,43%;;;12/03/1965;Autre profession;2
+33;GIRONDE;7ème circonscription;M. ROUSSET Alain;SOC;55,52%;O;DEP,PCR;16/02/1951;Retraité salarié privé;1
+33;GIRONDE;8ème circonscription;M. FOULON Yves;UMP;51,10%;;;10/10/1958;Avocat;2
+33;GIRONDE;9ème circonscription;M. SAVARY Gilles;SOC;63,49%;;;06/12/1954;Autre profession libérale;2
+33;GIRONDE;10ème circonscription;M. BOUDIE Florent;SOC;54,60%;;;22/09/1973;Cadre sup. (entreprises publiques);2
+33;GIRONDE;11ème circonscription;M. PLISSON Philippe;SOC;64,01%;O;DEP;12/01/1951;Retraité de l'enseignement;2
+33;GIRONDE;12ème circonscription;Mme FAURE Martine;SOC;60,53%;O;DEP;30/09/1948;Retraité de l'enseignement;2
+34;HERAULT;1ère circonscription;M. ROUMEGAS Jean-Louis;VEC;50,10%;;;06/06/1962;Enseignant 1er deg.-directeur école;2
+34;HERAULT;2ème circonscription;Mme LE DAIN Anne-Yvonne;SOC;66,35%;;;01/09/1955;Cadre supérieur (secteur privé);2
+34;HERAULT;3ème circonscription;Mme DOMBRE COSTE Fanny;SOC;54,84%;;;26/12/1956;Artisan;2
+34;HERAULT;4ème circonscription;M. ROIG Frédéric;SOC;55,39%;;;18/05/1969;Permanent politique;2
+34;HERAULT;5ème circonscription;M. MESQUIDA Kléber;SOC;61,41%;O;DEP;03/08/1945;Retraité fonct.publique (sf enseig.);2
+34;HERAULT;6ème circonscription;Mme ROQUE Dolores;SOC;39,82%;;;29/01/1952;Professeur du secondaire et techn.;2
+34;HERAULT;7ème circonscription;M. DENAJA Sébastien;SOC;42,92%;;;14/01/1979;Professeur de faculté;2
+34;HERAULT;8ème circonscription;M. ASSAF Christian;SOC;55,24%;;;01/09/1972;Fonctionnaire de catégorie A;2
+34;HERAULT;9ème circonscription;M. VIGNAL Patrick;SOC;50,66%;;;22/01/1958;Industriel-Chef entreprise;2
+35;ILLE ET VILAINE;1ère circonscription;Mme CHAPDELAINE Marie-Anne;SOC;66,63%;;;20/03/1962;Agent technique et technicien;2
+35;ILLE ET VILAINE;2ème circonscription;Mme APPERE Nathalie;SOC;63,45%;;;08/07/1975;Fonctionnaire de catégorie A;2
+35;ILLE ET VILAINE;3ème circonscription;M. ANDRE François;SOC;58,82%;;;19/07/1967;Fonctionnaire de catégorie A;2
+35;ILLE ET VILAINE;4ème circonscription;M. MARSAC Jean-René;SOC;62,30%;O;DEP;21/04/1954;Cadre supérieur (secteur privé);2
+35;ILLE ET VILAINE;5ème circonscription;Mme LE CALLENNEC Isabelle;UMP;55,79%;;;14/10/1966;Cadre supérieur (secteur privé);2
+35;ILLE ET VILAINE;6ème circonscription;M. BENOIT Thierry;ALLI;51,28%;O;DEP;13/09/1966;Représentant de commerce;2
+35;ILLE ET VILAINE;7ème circonscription;M. LURTON Gilles;DVD;51,04%;;;06/07/1963;Cadre supérieur (secteur privé);2
+35;ILLE ET VILAINE;8ème circonscription;M. ROGEMONT Marcel;SOC;66,11%;O;DEP;03/01/1948;Cadre supérieur (secteur privé);2
+36;INDRE;1ère circonscription;M. CHANTEGUET Jean-Paul;SOC;58,80%;O;DEP;09/12/1949;Autre profession;2
+36;INDRE;2ème circonscription;Mme BRUNEAU Isabelle;SOC;55,18%;;;26/03/1966;Enseignant 1er deg.-directeur école;2
+37;INDRE ET LOIRE;1ère circonscription;M. GILLE Jean-Patrick;SOC;58,19%;O;DEP;28/01/1962;Fonctionnaire de catégorie A;2
+37;INDRE ET LOIRE;2ème circonscription;Mme GREFF Claude;UMP;50,26%;O;DEP;02/06/1954;Autre cadre (secteur privé);2
+37;INDRE ET LOIRE;3ème circonscription;Mme TOURAINE Marisol;SOC;60,21%;O;DEP,MIN;07/03/1959;Grands corps de l'état;2
+37;INDRE ET LOIRE;4ème circonscription;M. BAUMEL Laurent;SOC;53,39%;;;13/08/1965;Cadre sup. (entreprises publiques);2
+37;INDRE ET LOIRE;5ème circonscription;M. BRIAND Philippe;UMP;52,83%;O;DEP;26/10/1960;Agent d'assurances;2
+38;ISERE;1ère circonscription;Mme FIORASO Geneviève;SOC;58,34%;O;MIN;10/10/1954;Cadre supérieur (secteur privé);2
+38;ISERE;2ème circonscription;M. ISSINDOU Michel;SOC;65,35%;O;DEP;12/07/1952;Fonctionnaire de catégorie A;2
+38;ISERE;3ème circonscription;M. DESTOT Michel;SOC;66,13%;O;DEP,MAI;02/09/1946;Ingénieur;2
+38;ISERE;4ème circonscription;Mme BATTISTEL Marie-Noëlle;SOC;57,93%;O;DEP;20/08/1956;Cadre supérieur (secteur privé);2
+38;ISERE;5ème circonscription;M. BROTTES François;SOC;61,85%;O;DEP;31/03/1956;Permanent politique;2
+38;ISERE;6ème circonscription;M. MOYNE-BRESSAND Alain;UMP;57,70%;O;DEP;30/07/1945;Industriel-Chef entreprise;2
+38;ISERE;7ème circonscription;M. BARBIER Jean-Pierre;UMP;50,62%;;;11/11/1960;Pharmacien;2
+38;ISERE;8ème circonscription;M. BINET Erwann;SOC;50,57%;;;30/07/1972;Fonctionnaire de catégorie A;2
+38;ISERE;9ème circonscription;Mme BONNETON Michèle;VEC;53,93%;;;15/07/1947;Retraité de l'enseignement;2
+38;ISERE;10ème circonscription;Mme HUILLIER Joëlle;SOC;50,98%;;;06/10/1948;Retraité salarié privé;2
+39;JURA;1ère circonscription;M. PELISSARD Jacques;UMP;52,14%;O;DEP;20/03/1946;Avocat;2
+39;JURA;2ème circonscription;Mme DALLOZ Marie-Christine;UMP;54,61%;O;DEP;10/01/1958;Industriel-Chef entreprise;2
+39;JURA;3ème circonscription;M. SERMIER Jean-Marie;UMP;53,18%;O;DEP;05/03/1961;Agriculteur-propriétaire exploit.;2
+40;LANDES;1ère circonscription;M. VIDALIES Alain;SOC;59,12%;O;DEP;17/03/1951;Avocat;2
+40;LANDES;2ème circonscription;M. DUFAU Jean-Pierre;SOC;60,75%;O;DEP;05/07/1943;Retraité de l'enseignement;2
+40;LANDES;3ème circonscription;M. EMMANUELLI Henri;SOC;56,07%;O;DEP,PCG;31/05/1945;Permanent politique;1
+41;LOIR ET CHER;1ère circonscription;M. ROBILIARD Denys;SOC;51,90%;;;22/07/1960;Avocat;2
+41;LOIR ET CHER;2ème circonscription;M. MARTIN-LALANDE Patrice;UMP;53,16%;O;DEP;02/12/1947;Sans profession déclarée;2
+41;LOIR ET CHER;3ème circonscription;M. LEROY Maurice;NCE;58,05%;O;DEP,PCG;02/02/1959;Autre profession;2
+42;LOIRE;1ère circonscription;M. JUANICO Régis;SOC;57,45%;O;DEP;05/02/1972;Fonctionnaire de catégorie A;2
+42;LOIRE;2ème circonscription;M. GAGNAIRE Jean-Louis;SOC;59,93%;O;DEP;29/04/1956;Autre profession;2
+42;LOIRE;3ème circonscription;M. ROCHEBLOINE François;NCE;52,36%;O;DEP;31/10/1945;Retraité salarié privé;2
+42;LOIRE;4ème circonscription;M. CINIERI Dino;UMP;41,96%;O;DEP;09/07/1955;Autre profession;2
+42;LOIRE;5ème circonscription;M. NICOLIN Yves;UMP;56,35%;O;DEP;05/03/1963;Autre profession;2
+42;LOIRE;6ème circonscription;M. SALEN Paul;UMP;53,35%;O;DEP;17/06/1949;Retraité salarié privé;2
+43;HAUTE LOIRE;1ère circonscription;M. WAUQUIEZ Laurent;UMP;63,95%;O;DEP;12/04/1975;Autre profession;2
+43;HAUTE LOIRE;2ème circonscription;M. VIGIER Jean-Pierre;UMP;51,52%;;;22/10/1969;Fonctionnaire de catégorie A;2
+44;LOIRE ATLANTIQUE;1ère circonscription;M. DE RUGY François;VEC;58,94%;O;DEP;06/12/1973;Permanent politique;2
+44;LOIRE ATLANTIQUE;2ème circonscription;Mme CLERGEAU Marie-Françoise;SOC;62,22%;O;DEP;02/05/1948;Représentant de commerce;2
+44;LOIRE ATLANTIQUE;3ème circonscription;M. AYRAULT Jean-Marc;SOC;56,21%;O;DEP,MAI;25/01/1950;Permanent politique;1
+44;LOIRE ATLANTIQUE;4ème circonscription;M. RAIMBOURG Dominique;SOC;55,35%;O;DEP;28/04/1950;Avocat;1
+44;LOIRE ATLANTIQUE;5ème circonscription;M. MENARD Michel;SOC;60,23%;O;DEP;20/05/1961;Enseignant 1er deg.-directeur école;2
+44;LOIRE ATLANTIQUE;6ème circonscription;M. DANIEL Yves;SOC;52,69%;;;31/07/1954;Agriculteur-propriétaire exploit.;2
+44;LOIRE ATLANTIQUE;7ème circonscription;M. PRIOU Christophe;UMP;52,05%;O;DEP;02/05/1958;Cadre sup. (entreprises publiques);2
+44;LOIRE ATLANTIQUE;8ème circonscription;Mme BOUILLE Marie-Odile;SOC;51,70%;O;DEP;13/10/1950;Salarié du secteur médical;1
+44;LOIRE ATLANTIQUE;9ème circonscription;Mme RABIN Monique;SOC;53,26%;;;02/07/1954;Retraité fonct.publique (sf enseig.);2
+44;LOIRE ATLANTIQUE;10ème circonscription;Mme ERRANTE Sophie;SOC;52,52%;;;22/07/1971;Industriel-Chef entreprise;2
+45;LOIRET;1ère circonscription;M. CARRE Olivier;UMP;51,84%;O;DEP;16/03/1961;Permanent politique;2
+45;LOIRET;2ème circonscription;M. GROUARD Serge;UMP;50,37%;O;DEP,MAI;19/03/1959;Permanent politique;2
+45;LOIRET;3ème circonscription;M. DE GANAY Claude;UMP;52,73%;;;05/09/1953;Fonctionnaire de catégorie A;2
+45;LOIRET;4ème circonscription;M. DOOR Jean - Pierre;UMP;57,82%;O;DEP;01/04/1942;Retraité des professions libérales;2
+45;LOIRET;5ème circonscription;Mme DUBOIS Marianne;UMP;53,82%;O;DEP;17/12/1957;Sans profession déclarée;2
+45;LOIRET;6ème circonscription;Mme CORRE Valérie;SOC;50,14%;;;17/05/1967;Cadre (entreprises publiques);2
+46;LOT;1ère circonscription;Mme ORLIAC Dominique;RDG;59,85%;O;DEP;15/03/1952;Médecin;2
+46;LOT;2ème circonscription;M. LAUNAY Jean;SOC;52,76%;O;DEP;24/07/1952;Fonctionnaire de catégorie A;1
+47;LOT ET GARONNE;1ère circonscription;Mme LOUSTEAU Lucette;SOC;52,02%;;;20/12/1948;Sans profession déclarée;2
+47;LOT ET GARONNE;2ème circonscription;M. FEKL Matthias;SOC;53,65%;;;04/10/1977;Magistrat;2
+47;LOT ET GARONNE;3ème circonscription;M. CAHUZAC Jérôme;SOC;61,48%;O;DEP;19/06/1952;Chirurgien;2
+48;LOZERE;1ère circonscription;M. MOREL-A-L'HUISSIER Pierre;UMP;50,52%;O;DEP;21/12/1958;Avocat;2
+49;MAINE ET LOIRE;1ère circonscription;M. BELOT Luc;SOC;52,64%;;;06/09/1974;Permanent politique;2
+49;MAINE ET LOIRE;2ème circonscription;M. GOUA Marc;SOC;62,80%;O;DEP;03/03/1940;Retraité salarié privé;2
+49;MAINE ET LOIRE;3ème circonscription;M. TAUGOURDEAU Jean-Charles;UMP;53,45%;O;DEP;17/07/1953;Autre profession;2
+49;MAINE ET LOIRE;4ème circonscription;M. PIRON Michel;UMP;55,17%;O;DEP;15/03/1943;Retraité de l'enseignement;2
+49;MAINE ET LOIRE;5ème circonscription;M. BOURDOULEIX Gilles;UMP;51,07%;O;DEP;15/04/1960;Avocat;2
+49;MAINE ET LOIRE;6ème circonscription;M. BARDY Serge;DVG;52,18%;;;06/11/1947;Retraité salarié privé;2
+49;MAINE ET LOIRE;7ème circonscription;M. LAFFINEUR Marc;UMP;50,10%;O;DEP;10/08/1945;Médecin;2
+50;MANCHE;1ère circonscription;M. GOSSELIN Philippe;UMP;52,53%;O;DEP;23/10/1966;Professeur de faculté;2
+50;MANCHE;2ème circonscription;M. HUET Guénhaël;UMP;60,71%;O;DEP;30/07/1956;Autre profession libérale;2
+50;MANCHE;3ème circonscription;M. TRAVERT Stéphane;SOC;52,38%;;;12/10/1969;Autre profession;2
+50;MANCHE;4ème circonscription;M. CAZENEUVE Bernard;SOC;55,39%;O;DEP;02/06/1963;Avocat;1
+51;MARNE;1ère circonscription;M. ROBINET Arnaud;UMP;52,77%;O;DEP;30/04/1975;Professeur de faculté;2
+51;MARNE;2ème circonscription;Mme VAUTRIN-PENNAFORTE Catherine;UMP;53,04%;O;DEP;26/07/1960;Cadre supérieur (secteur privé);2
+51;MARNE;3ème circonscription;M. MARTIN Philippe;UMP;55,78%;O;DEP;28/04/1949;Agriculteur-propriétaire exploit.;2
+51;MARNE;4ème circonscription;M. APPARU Benoist;UMP;52,49%;O;DEP;24/11/1969;Grands corps de l'état;2
+51;MARNE;5ème circonscription;M. DE COURSON Charles;NCE;65,79%;O;DEP;02/04/1952;Magistrat;2
+52;HAUTE MARNE;1ère circonscription;M. CHATEL Luc;UMP;55,06%;O;DEP,MAI;15/08/1964;Cadre supérieur (secteur privé);2
+52;HAUTE MARNE;2ème circonscription;M. CORNUT-GENTILLE François;UMP;60,98%;O;DEP,MAI;22/05/1958;Sans profession déclarée;2
+53;MAYENNE;1ère circonscription;M. GAROT Guillaume;SOC;58,47%;O;DEP;29/05/1966;Permanent politique;2
+53;MAYENNE;2ème circonscription;M. CHEVROLLIER Guillaume;UMP;51,73%;;;27/10/1974;Autre cadre (secteur privé);2
+53;MAYENNE;3ème circonscription;M. FAVENNEC Yannick;UMP;53,94%;O;DEP;12/08/1958;Permanent politique;1
+54;MEURTHE ET MOSELLE;1ère circonscription;Mme KHIROUNI Chaynesse;SOC;52,23%;;;17/03/1968;Autre cadre (secteur privé);2
+54;MEURTHE ET MOSELLE;2ème circonscription;M. FERON Hervé;SOC;54,15%;O;DEP;03/08/1956;Homme de lettres et Artiste;2
+54;MEURTHE ET MOSELLE;3ème circonscription;M. ECKERT Christian;SOC;66,38%;O;DEP;08/02/1956;Professeur du secondaire et techn.;2
+54;MEURTHE ET MOSELLE;4ème circonscription;M. LAMBLIN Jacques;UMP;53,49%;O;DEP;29/08/1952;Vétérinaire;2
+54;MEURTHE ET MOSELLE;5ème circonscription;M. POTIER Dominique;SOC;55,67%;;;17/03/1964;Agriculteur-propriétaire exploit.;2
+54;MEURTHE ET MOSELLE;6ème circonscription;M. LE DEAUT Jean-Yves;SOC;63,58%;O;DEP;01/02/1945;Professeur de faculté;2
+55;MEUSE;1ère circonscription;M. PANCHER Bertrand;PRV;54,68%;O;DEP;05/06/1958;Industriel-Chef entreprise;2
+55;MEUSE;2ème circonscription;M. DUMONT Jean-Louis;SOC;51,53%;O;DEP;06/04/1944;Retraité de l'enseignement;2
+56;MORBIHAN;1ère circonscription;M. PELLOIS Hervé;DVG;52,45%;;;17/04/1951;Cadre supérieur (secteur privé);2
+56;MORBIHAN;2ème circonscription;M. LE RAY Philippe;DVD;51,88%;;;16/06/1968;Agriculteur-propriétaire exploit.;2
+56;MORBIHAN;3ème circonscription;M. LE ROCH Jean-Pierre;SOC;52,94%;;PCC;18/03/1946;Retraité de l'enseignement;2
+56;MORBIHAN;4ème circonscription;M. MOLAC Paul;DVG;52,56%;;;21/05/1962;Professeur du secondaire et techn.;2
+56;MORBIHAN;5ème circonscription;M. ROUILLARD Gwendal;SOC;62,19%;O;DEP;20/04/1976;Autre profession;2
+56;MORBIHAN;6ème circonscription;M. NOGUES Philippe;SOC;51,48%;;;07/05/1955;Autre cadre (secteur privé);2
+57;MOSELLE;1ère circonscription;Mme FILIPPETTI Aurélie;SOC;59,04%;O;MIN;17/06/1973;Professeur du secondaire et techn.;2
+57;MOSELLE;2ème circonscription;M. JACQUAT Denis;UMP;50,86%;O;DEP;29/05/1944;Médecin;2
+57;MOSELLE;3ème circonscription;Mme ZIMMERMANN Marie-Jo;UMP;53,75%;O;DEP;29/04/1951;Professeur du secondaire et techn.;2
+57;MOSELLE;4ème circonscription;M. MARTY Alain;UMP;41,39%;O;DEP;07/03/1946;Médecin;2
+57;MOSELLE;5ème circonscription;M. LETT Céleste;UMP;60,24%;O;DEP;07/05/1951;Salarié du secteur médical;2
+57;MOSELLE;6ème circonscription;M. KALINOWSKI Laurent;SOC;53,70%;;;28/06/1955;Retraité de l'enseignement;2
+57;MOSELLE;7ème circonscription;Mme ZANETTI Paola;SOC;38,49%;;;01/09/1976;Cadre supérieur (secteur privé);2
+57;MOSELLE;8ème circonscription;M. LIEBGOTT Michel;SOC;64,40%;O;DEP;15/02/1958;Salarié du secteur médical;2
+57;MOSELLE;9ème circonscription;Mme GROMMERCH-BRANDENBURGER Anne;UMP;53,07%;O;DEP;11/12/1970;Cadre supérieur (secteur privé);2
+58;NIEVRE;1ère circonscription;Mme CARRILLON-COUVREUR Martine;SOC;61,34%;O;DEP;21/03/1948;Cadre supérieur (secteur privé);2
+58;NIEVRE;2ème circonscription;M. PAUL Christian;SOC;65,55%;O;DEP;23/03/1960;Grands corps de l'état;2
+59;NORD;1ère circonscription;M. ROMAN Bernard;SOC;64,85%;O;DEP;15/07/1952;Fonctionnaire de catégorie A;2
+59;NORD;2ème circonscription;Mme LINKENHELD Audrey;SOC;64,69%;;;11/10/1973;Permanent politique;2
+59;NORD;3ème circonscription;M. PAUVROS Rémi;SOC;52,16%;;;01/07/1952;Autre profession;2
+59;NORD;4ème circonscription;M. DAUBRESSE Marc-Philippe;UMP;53,31%;O;DEP;01/08/1953;Permanent politique;2
+59;NORD;5ème circonscription;M. HUYGHE Sébastien;UMP;51,43%;O;DEP;25/10/1969;Permanent politique;2
+59;NORD;6ème circonscription;M. LAZARO Thierry;UMP;54,98%;O;DEP;27/09/1960;Permanent politique;2
+59;NORD;7ème circonscription;M. VERCAMER Francis;NCE;55,07%;O;DEP;10/05/1958;Ingénieur;2
+59;NORD;8ème circonscription;M. BAERT Dominique;DVG;69,58%;O;DEP;24/10/1959;Cadre sup. (entreprises publiques);2
+59;NORD;9ème circonscription;M. GERARD Bernard;UMP;61,21%;O;DEP;29/08/1953;Avocat;2
+59;NORD;10ème circonscription;M. DARMANIN Gérald;UMP;54,88%;;;11/10/1982;Cadre supérieur (secteur privé);2
+59;NORD;11ème circonscription;M. DURAND Yves;SOC;58,11%;O;DEP;06/06/1946;Retraité de l'enseignement;2
+59;NORD;12ème circonscription;M. BATAILLE Christian;SOC;57,47%;O;DEP;13/05/1946;Retraité de l'enseignement;2
+59;NORD;13ème circonscription;M. HUTIN Christian;DVG;64,73%;O;DEP;18/01/1961;Médecin;2
+59;NORD;14ème circonscription;M. DECOOL Jean-Pierre;UMP;53,44%;O;DEP;19/10/1952;Professeur du secondaire et techn.;2
+59;NORD;15ème circonscription;M. ALLOSSERY Jean-Pierre;SOC;52,13%;;;31/07/1945;Retraité salarié privé;2
+59;NORD;16ème circonscription;M. CANDELIER Jean-Jacques;FG;100,00%;O;DEP;07/03/1945;Retraité fonct.publique (sf enseig.);2
+59;NORD;17ème circonscription;M. DOLEZ Marc;FG;100,00%;O;DEP;21/10/1952;Professeur de faculté;2
+59;NORD;18ème circonscription;M. VILLAIN François-Xavier;UMP;57,63%;O;DEP;31/05/1950;Retraité des professions libérales;2
+59;NORD;19ème circonscription;Mme DUFOUR-TONINI Anne-Lise;SOC;100,00%;;;02/03/1970;Fonctionnaire de catégorie A;2
+59;NORD;20ème circonscription;M. BOCQUET Alain;FG;66,27%;O;DEP;06/05/1946;Retraité de l'enseignement;2
+59;NORD;21ème circonscription;M. BORLOO Jean-Louis;PRV;55,83%;O;DEP;07/04/1951;Avocat;2
+60;OISE;1ère circonscription;M. DASSAULT Olivier;UMP;58,05%;O;DEP;01/06/1951;Industriel-Chef entreprise;2
+60;OISE;2ème circonscription;M. MANCEL Jean-François;UMP;38,97%;O;DEP;01/03/1948;Permanent politique;2
+60;OISE;3ème circonscription;M. FRANCAIX Michel;SOC;57,86%;O;DEP;28/05/1943;Cadre supérieur (secteur privé);2
+60;OISE;4ème circonscription;M. WOERTH Eric;UMP;59,23%;O;DEP;29/01/1956;Permanent politique;2
+60;OISE;5ème circonscription;M. DEGAUCHY Lucien;UMP;57,85%;O;DEP;11/06/1937;Autre retraité;2
+60;OISE;6ème circonscription;M. CARVALHO Patrice;FG;42,71%;;;15/11/1952;Autre cadre (secteur privé);2
+60;OISE;7ème circonscription;M. COURTIAL Edouard;UMP;53,87%;O;DEP;28/06/1973;Cadre supérieur (secteur privé);2
+61;ORNE;1ère circonscription;M. PUEYO Joaquim;SOC;53,05%;;;30/05/1950;Retraité fonct.publique (sf enseig.);2
+61;ORNE;2ème circonscription;Mme LOUWAGIE Véronique;UMP;60,00%;;;20/03/1961;Expert comptable;2
+61;ORNE;3ème circonscription;M. GOASDOUE Yves;DVG;50,99%;;;22/08/1959;Fonctionnaire de catégorie A;2
+62;PAS DE CALAIS;1ère circonscription;M. COTTEL Jean-Jacques;SOC;52,59%;;;17/07/1953;Retraité de l'enseignement;2
+62;PAS DE CALAIS;2ème circonscription;Mme MAQUET Jacqueline;SOC;59,27%;O;DEP;13/05/1949;Permanent politique;2
+62;PAS DE CALAIS;3ème circonscription;M. DELCOURT Guy;SOC;59,53%;O;DEP;13/07/1947;Permanent politique;2
+62;PAS DE CALAIS;4ème circonscription;M. FASQUELLE Daniel;UMP;54,87%;O;DEP;16/01/1963;Permanent politique;2
+62;PAS DE CALAIS;5ème circonscription;M. CUVILLIER Frédéric;SOC;50,66%;O;MIN;09/12/1968;Permanent politique;1
+62;PAS DE CALAIS;6ème circonscription;Mme BOURGUIGNON Brigitte;SOC;54,31%;;;21/03/1959;Fonctionnaire de catégorie B;2
+62;PAS DE CALAIS;7ème circonscription;M. CAPET Yann;SOC;61,44%;;;31/12/1975;Fonctionnaire de catégorie A;2
+62;PAS DE CALAIS;8ème circonscription;M. LEFAIT Michel;SOC;65,64%;O;DEP;20/05/1946;Retraité de l'enseignement;2
+62;PAS DE CALAIS;9ème circonscription;M. SAINT-ANDRE Stéphane;RDG;50,83%;;;21/05/1964;Cadre supérieur (secteur privé);2
+62;PAS DE CALAIS;10ème circonscription;M. JANQUIN Serge;SOC;63,41%;O;DEP;05/08/1943;Retraité de l'enseignement;2
+62;PAS DE CALAIS;11ème circonscription;M. KEMEL Philippe;SOC;50,11%;;;28/06/1948;Profession rattachée à l'enseignt.;2
+62;PAS DE CALAIS;12ème circonscription;M. BAYS Nicolas;SOC;56,84%;;;01/05/1977;Cadre supérieur (secteur privé);2
+63;PUY DE DOME;1ère circonscription;Mme SAUGUES Odile;SOC;67,63%;O;DEP;26/01/1943;Retraité salarié privé;2
+63;PUY DE DOME;2ème circonscription;Mme PIRES BEAUNE Christine;SOC;59,52%;;;06/10/1964;Fonctionnaire de catégorie A;2
+63;PUY DE DOME;3ème circonscription;Mme AUROI Danielle;VEC;50,83%;;;29/02/1944;Retraité de l'enseignement;2
+63;PUY DE DOME;4ème circonscription;M. BACQUET Jean-Paul;SOC;50,91%;O;DEP;11/03/1949;Médecin;1
+63;PUY DE DOME;5ème circonscription;M. CHASSAIGNE André;FG;67,53%;O;DEP;02/07/1950;Retraité de l'enseignement;2
+64;PYRENEES ATLANTIQUES;1ère circonscription;Mme LIGNIERES-CASSOU Martine;SOC;57,64%;O;DEP;22/02/1952;Fonctionnaire de catégorie A;2
+64;PYRENEES ATLANTIQUES;2ème circonscription;Mme CHABANNE Nathalie;SOC;42,78%;;;03/01/1973;Fonctionnaire de catégorie A;2
+64;PYRENEES ATLANTIQUES;3ème circonscription;M. HABIB David;SOC;56,31%;O;DEP;16/03/1961;Autre profession;1
+64;PYRENEES ATLANTIQUES;4ème circonscription;M. LASSALLE Jean;CEN;50,98%;O;DEP;03/05/1955;Autre profession;2
+64;PYRENEES ATLANTIQUES;5ème circonscription;Mme CAPDEVIELLE Colette;SOC;56,47%;;;14/10/1958;Avocat;2
+64;PYRENEES ATLANTIQUES;6ème circonscription;Mme ALAUX Sylviane;SOC;51,62%;;;01/07/1945;Retraité salarié privé;2
+65;HAUTES PYRENEES;1ère circonscription;M. GLAVANY Jean;SOC;66,91%;O;DEP;14/05/1949;Grands corps de l'état;2
+65;HAUTES PYRENEES;2ème circonscription;Mme DUBIE Jeanine;RDG;64,74%;;;03/01/1958;Fonctionnaire de catégorie A;2
+66;PYRENEES ORIENTALES;1ère circonscription;M. CRESTA Jacques;DVG;42,95%;;;16/02/1955;Autre cadre (secteur privé);2
+66;PYRENEES ORIENTALES;2ème circonscription;M. SIRE Fernand;UMP;50,49%;O;DEP;31/03/1945;Médecin;2
+66;PYRENEES ORIENTALES;3ème circonscription;Mme NEUVILLE Ségolène;SOC;53,03%;;;21/06/1970;Fonctionnaire de catégorie A;2
+66;PYRENEES ORIENTALES;4ème circonscription;M. AYLAGAS Pierre;SOC;55,42%;;PCC;24/07/1942;Retraité de l'enseignement;2
+67;BAS RHIN;1ère circonscription;M. JUNG Armand;SOC;61,61%;O;DEP;13/12/1950;Fonctionnaire de catégorie A;2
+67;BAS RHIN;2ème circonscription;M. BIES Philippe;SOC;52,25%;;;14/01/1964;Sans profession déclarée;2
+67;BAS RHIN;3ème circonscription;M. SCHNEIDER André;UMP;50,99%;O;DEP;03/01/1947;Retraité de l'enseignement;2
+67;BAS RHIN;4ème circonscription;Mme ROHFRITSCH Sophie;UMP;65,05%;;;27/08/1962;Autre profession libérale;2
+67;BAS RHIN;5ème circonscription;M. HERTH Antoine;UMP;67,78%;O;DEP;14/02/1963;Agriculteur-propriétaire exploit.;2
+67;BAS RHIN;6ème circonscription;M. FURST Laurent;UMP;51,68%;;;19/05/1965;Autre profession;1
+67;BAS RHIN;7ème circonscription;M. HETZEL Patrick;UMP;57,21%;;;02/07/1964;Professeur de faculté;2
+67;BAS RHIN;8ème circonscription;M. REISS Frédéric;UMP;53,64%;O;DEP;12/11/1949;Retraité de l'enseignement;1
+67;BAS RHIN;9ème circonscription;M. STURNI Claude;DVD;60,57%;;;25/08/1962;Autre profession;2
+68;HAUT RHIN;1ère circonscription;M. STRAUMANN Eric;UMP;62,21%;O;DEP;17/08/1964;Professeur du secondaire et techn.;2
+68;HAUT RHIN;2ème circonscription;M. CHRIST Jean-Louis;UMP;63,55%;O;DEP;24/01/1951;Permanent politique;2
+68;HAUT RHIN;3ème circonscription;M. REITZER Jean-Luc;UMP;54,80%;O;DEP;29/12/1951;Permanent politique;1
+68;HAUT RHIN;4ème circonscription;M. SORDI Michel;UMP;63,03%;O;DEP;09/11/1953;Permanent politique;2
+68;HAUT RHIN;5ème circonscription;Mme GROSSKOST Arlette;UMP;55,76%;O;DEP;19/07/1953;Avocat;2
+68;HAUT RHIN;6ème circonscription;M. HILLMEYER Francis;NCE;44,11%;O;DEP;09/09/1946;Retraité salarié privé;2
+69;RHONE;1ère circonscription;M. BRAILLARD Thierry;RDG;53,78%;;;24/01/1964;Avocat;2
+69;RHONE;2ème circonscription;M. MUET Pierre-Alain;SOC;58,15%;O;DEP;01/01/1945;Grands corps de l'état;2
+69;RHONE;3ème circonscription;M. TOURAINE Jean-Louis;SOC;59,15%;O;DEP;08/10/1945;Médecin;2
+69;RHONE;4ème circonscription;Mme NACHURY Dominique;UMP;53,24%;;;01/06/1951;Autre profession;2
+69;RHONE;5ème circonscription;M. COCHET Philippe;UMP;61,29%;O;DEP;23/05/1961;Industriel-Chef entreprise;2
+69;RHONE;6ème circonscription;Mme CROZON Pascale;SOC;62,27%;O;DEP;29/05/1944;Sans profession déclarée;2
+69;RHONE;7ème circonscription;Mme GEOFFROY Hélène;SOC;60,07%;;;04/03/1970;Professeur de faculté;2
+69;RHONE;8ème circonscription;M. VERCHERE Patrice;UMP;63,48%;O;DEP;29/12/1973;Sans profession déclarée;2
+69;RHONE;9ème circonscription;M. PERRUT Bernard;UMP;61,84%;O;DEP;24/01/1957;Sans profession déclarée;2
+69;RHONE;10ème circonscription;M. GUILLOTEAU Christophe;UMP;59,85%;O;DEP;18/06/1958;Sans profession déclarée;2
+69;RHONE;11ème circonscription;M. FENECH Georges;UMP;65,02%;;;26/10/1954;Magistrat;2
+69;RHONE;12ème circonscription;M. TERROT Michel;UMP;54,69%;O;DEP;18/12/1948;Avocat;2
+69;RHONE;13ème circonscription;M. MEUNIER Philippe;UMP;59,51%;O;DEP;16/03/1966;Sans profession déclarée;2
+69;RHONE;14ème circonscription;M. BLEIN Yves;SOC;62,00%;;;12/10/1954;Cadre supérieur (secteur privé);2
+70;HAUTE SAONE;1ère circonscription;M. CHRETIEN Alain;UMP;53,35%;;;17/03/1975;Cadre (entreprises publiques);2
+70;HAUTE SAONE;2ème circonscription;M. VILLAUME Jean-Michel;SOC;50,22%;O;DEP;27/03/1946;Retraité de l'enseignement;2
+71;SAONE ET LOIRE;1ère circonscription;M. THEVENOUD Thomas;SOC;54,13%;;;05/05/1974;Autre profession;2
+71;SAONE ET LOIRE;2ème circonscription;Mme GUEUGNEAU Edith;DVG;52,81%;;;07/06/1953;Salarié du secteur médical;2
+71;SAONE ET LOIRE;3ème circonscription;M. BAUMEL Philippe;SOC;53,78%;;;14/11/1961;Cadre (entreprises publiques);2
+71;SAONE ET LOIRE;4ème circonscription;Mme UNTERMAIER Cécile;SOC;50,40%;;;28/12/1951;Grands corps de l'état;2
+71;SAONE ET LOIRE;5ème circonscription;M. SIRUGUE Christophe;SOC;59,26%;O;DEP;14/08/1966;Autre profession;2
+72;SARTHE;1ère circonscription;Mme DUBOIS Françoise;SOC;51,76%;;;06/12/1947;Retraité de l'enseignement;2
+72;SARTHE;2ème circonscription;Mme KARAMANLI Marietta;SOC;64,53%;O;DEP;18/12/1964;Professeur du secondaire et techn.;2
+72;SARTHE;3ème circonscription;M. CHAUVEAU Guy-Michel;DVG;52,45%;;;25/09/1944;Retraité de l'enseignement;2
+72;SARTHE;4ème circonscription;M. LE FOLL Stéphane;SOC;59,45%;;MIN;03/02/1960;Permanent politique;2
+72;SARTHE;5ème circonscription;M. LE MENER Dominique;UMP;50,16%;O;DEP;12/11/1958;Cadre supérieur (secteur privé);2
+73;SAVOIE;1ère circonscription;M. DORD Dominique;UMP;59,61%;O;DEP;01/09/1959;Permanent politique;2
+73;SAVOIE;2ème circonscription;M. GAYMARD Hervé;UMP;58,19%;O;DEP,PCG;31/05/1960;Autre profession;2
+73;SAVOIE;3ème circonscription;Mme SANTAIS Béatrice;SOC;52,06%;;;17/09/1964;Retraité fonct.publique (sf enseig.);2
+73;SAVOIE;4ème circonscription;Mme LACLAIS Bernadette;SOC;56,82%;;;10/03/1967;Cadre (entreprises publiques);2
+74;HAUTE SAVOIE;1ère circonscription;M. ACCOYER Bernard;UMP;56,06%;O;DEP;12/08/1945;Médecin;2
+74;HAUTE SAVOIE;2ème circonscription;M. TARDY Lionel;UMP;56,50%;O;DEP;07/06/1966;Administrateur de sociétés;2
+74;HAUTE SAVOIE;3ème circonscription;M. SADDIER Martial;UMP;58,95%;O;DEP;15/10/1969;Cadre (entreprises publiques);2
+74;HAUTE SAVOIE;4ème circonscription;Mme DUBY-MULLER Virginie;UMP;55,50%;;;16/08/1979;Autre cadre (secteur privé);2
+74;HAUTE SAVOIE;5ème circonscription;M. FRANCINA Marc;UMP;51,97%;O;DEP;02/02/1948;Autre cadre (secteur privé);2
+74;HAUTE SAVOIE;6ème circonscription;Mme DION Sophie;UMP;57,76%;;;25/03/1956;Professeur de faculté;2
+75;PARIS;1ère circonscription;M. LELLOUCHE Pierre;UMP;53,17%;O;DEP;03/05/1951;Permanent politique;2
+75;PARIS;2ème circonscription;M. FILLON François;UMP;56,46%;;;04/03/1954;Sans profession déclarée;2
+75;PARIS;3ème circonscription;Mme LEPETIT Annick;SOC;59,84%;O;DEP;31/03/1958;Permanent politique;2
+75;PARIS;4ème circonscription;M. DEBRE Bernard;UMP;100,00%;O;DEP;30/09/1944;Retraité de l'enseignement;2
+75;PARIS;5ème circonscription;Mme DAGOMA Seybah;SOC;70,10%;;;09/06/1978;Avocat;2
+75;PARIS;6ème circonscription;Mme DUFLOT Cécile;VEC;72,18%;;MIN;01/04/1975;Architecte;2
+75;PARIS;7ème circonscription;M. BLOCHE Patrick;SOC;67,57%;O;DEP,MAI;04/07/1956;Cadre supérieur (secteur privé);2
+75;PARIS;8ème circonscription;Mme MAZETIER Sandrine;SOC;61,51%;O;DEP;16/12/1966;Cadre supérieur (secteur privé);2
+75;PARIS;9ème circonscription;M. LE GUEN Jean-Marie;SOC;68,87%;O;DEP;03/01/1953;Médecin;2
+75;PARIS;10ème circonscription;M. BAUPIN Denis;VEC;64,73%;;;02/06/1962;Ingénieur;2
+75;PARIS;11ème circonscription;M. CHERKI Pascal;SOC;56,47%;;MAI;01/09/1966;Sans profession déclarée;2
+75;PARIS;12ème circonscription;M. GOUJON Philippe;UMP;60,36%;O;DEP,MAI;30/04/1954;Permanent politique;2
+75;PARIS;13ème circonscription;M. LAMOUR Jean-François;UMP;54,60%;O;DEP;02/02/1956;Autre profession libérale;2
+75;PARIS;14ème circonscription;M. GOASGUEN Claude;UMP;58,11%;O;DEP,MAI;12/03/1945;Avocat;1
+75;PARIS;15ème circonscription;Mme PAU-LANGEVIN George;SOC;73,50%;O;MIN;19/10/1948;Avocat;2
+75;PARIS;16ème circonscription;M. CAMBADELIS Jean-Christophe;SOC;70,04%;O;DEP;14/08/1951;Profession rattachée à l'enseignt.;2
+75;PARIS;17ème circonscription;M. VAILLANT Daniel;SOC;72,84%;O;DEP,MAI;19/07/1949;Autre cadre (secteur privé);2
+75;PARIS;18ème circonscription;M. CARESCHE Christophe;SOC;69,21%;O;DEP;02/09/1960;Profession rattachée à l'enseignt.;2
+76;SEINE MARITIME;1ère circonscription;Mme FOURNEYRON Valérie;SOC;57,96%;O;DEP,MIN;04/10/1959;Médecin;2
+76;SEINE MARITIME;2ème circonscription;Mme GUEGOT Françoise;UMP;52,23%;O;DEP;11/08/1962;Ingénieur;2
+76;SEINE MARITIME;3ème circonscription;Mme PANE Luce;SOC;100,00%;;;28/09/1955;Fonctionnaire de catégorie A;2
+76;SEINE MARITIME;4ème circonscription;M. FABIUS Laurent;SOC;52,81%;O;DEP,MIN;20/08/1946;Grands corps de l'état;1
+76;SEINE MARITIME;5ème circonscription;M. BOUILLON Christophe;SOC;66,10%;O;DEP;04/03/1969;Sans profession déclarée;2
+76;SEINE MARITIME;6ème circonscription;Mme HUREL Sandrine;SOC;54,56%;O;DEP;07/08/1968;Autre cadre (secteur privé);2
+76;SEINE MARITIME;7ème circonscription;M. PHILIPPE Edouard;UMP;50,81%;O;DEP,MAI;28/11/1970;Avocat;2
+76;SEINE MARITIME;8ème circonscription;Mme TROALLIC Catherine;SOC;100,00%;;;10/05/1974;Fonctionnaire de catégorie B;2
+76;SEINE MARITIME;9ème circonscription;Mme GRELIER Estelle;SOC;54,40%;;;22/06/1973;Autre profession;2
+76;SEINE MARITIME;10ème circonscription;Mme CHAUVEL Dominique;SOC;50,93%;;;15/02/1958;Autre profession;2
+77;SEINE ET MARNE;1ère circonscription;M. MIGNON Jean-Claude;UMP;52,11%;O;DEP;02/02/1950;Industriel-Chef entreprise;2
+77;SEINE ET MARNE;2ème circonscription;Mme LACROUTE Valérie;UMP;53,70%;;;29/10/1965;Autre profession libérale;2
+77;SEINE ET MARNE;3ème circonscription;M. JEGO Yves;PRV;53,11%;O;DEP;17/04/1961;Avocat;2
+77;SEINE ET MARNE;4ème circonscription;M. JACOB Christian;UMP;59,26%;O;DEP;04/12/1959;Autre profession;2
+77;SEINE ET MARNE;5ème circonscription;M. RIESTER Franck;UMP;55,98%;O;DEP;03/01/1974;Industriel-Chef entreprise;2
+77;SEINE ET MARNE;6ème circonscription;M. COPE Jean-François;UMP;59,53%;O;DEP;05/05/1964;Grands corps de l'état;2
+77;SEINE ET MARNE;7ème circonscription;M. ALBARELLO Yves;UMP;50,08%;O;DEP;17/03/1952;Cadre supérieur (secteur privé);2
+77;SEINE ET MARNE;8ème circonscription;M. RIHAN CYPEL Eduardo;SOC;52,77%;;;13/11/1975;Autre profession;2
+77;SEINE ET MARNE;9ème circonscription;M. GEOFFROY Guy;UMP;51,22%;O;DEP;26/05/1949;Retraité de l'enseignement;2
+77;SEINE ET MARNE;10ème circonscription;M. BREHIER Emeric;SOC;60,70%;;;26/12/1971;Fonctionnaire de catégorie A;2
+77;SEINE ET MARNE;11ème circonscription;M. FAURE Olivier;SOC;63,22%;;;18/08/1968;Cadre supérieur (secteur privé);2
+78;YVELINES;1ère circonscription;M. DE MAZIERES François;UMP;56,75%;;;22/05/1960;Grands corps de l'état;2
+78;YVELINES;2ème circonscription;Mme PECRESSE Valérie;UMP;58,67%;O;DEP;14/07/1967;Grands corps de l'état;2
+78;YVELINES;3ème circonscription;M. GUAINO Henri;UMP;61,85%;;;11/03/1957;Grands corps de l'état;2
+78;YVELINES;4ème circonscription;M. LEQUILLER Pierre;UMP;58,07%;O;DEP;04/12/1949;Permanent politique;2
+78;YVELINES;5ème circonscription;M. MYARD Jacques;UMP;56,92%;O;DEP;14/08/1947;Grands corps de l'état;2
+78;YVELINES;6ème circonscription;M. MORANGE Pierre;UMP;59,60%;O;DEP;08/09/1956;Médecin;2
+78;YVELINES;7ème circonscription;M. RICHARD Arnaud;PRV;50,51%;O;DEP;30/04/1971;Fonctionnaire de catégorie A;2
+78;YVELINES;8ème circonscription;Mme DESCAMPS-CROSNIER Françoise;SOC;52,99%;;;13/10/1955;Sans profession déclarée;2
+78;YVELINES;9ème circonscription;M. TETART Jean-Marie;UMP;56,83%;;;01/09/1949;Grands corps de l'état;2
+78;YVELINES;10ème circonscription;M. POISSON Jean-Frédéric;UMP;53,65%;;;22/01/1963;Industriel-Chef entreprise;2
+78;YVELINES;11ème circonscription;M. HAMON Benoît;SOC;55,38%;;MIN;26/06/1967;Administrateur de sociétés;2
+78;YVELINES;12ème circonscription;M. DOUILLET David;UMP;54,59%;O;DEP;17/02/1969;Industriel-Chef entreprise;2
+79;DEUX SEVRES;1ère circonscription;Mme GAILLARD Geneviève;SOC;56,20%;O;DEP;13/05/1947;Retraité des professions libérales;2
+79;DEUX SEVRES;2ème circonscription;Mme BATHO Delphine;SOC;53,18%;O;DEP,MIN;23/03/1973;Fonctionnaire de catégorie A;1
+79;DEUX SEVRES;3ème circonscription;M. GRELLIER Jean;SOC;57,78%;O;DEP;17/05/1947;Retr.artis.commerc.chef d entrep.;2
+80;SOMME;1ère circonscription;Mme BOISTARD Pascale;SOC;59,14%;;;04/01/1971;Autre cadre (secteur privé);2
+80;SOMME;2ème circonscription;Mme POMPILI Barbara;VEC;50,83%;;;13/06/1975;Permanent politique;2
+80;SOMME;3ème circonscription;M. BUISINE Jean-Claude;SOC;51,80%;;MAI;14/06/1947;Retraité fonct.publique (sf enseig.);2
+80;SOMME;4ème circonscription;M. GEST Alain;UMP;50,55%;O;DEP;27/12/1950;Autre cadre (secteur privé);2
+80;SOMME;5ème circonscription;M. DEMILLY Stéphane;NCE;58,12%;O;DEP;26/06/1963;Autre cadre (secteur privé);2
+81;TARN;1ère circonscription;M. FOLLIOT Philippe;ALLI;50,79%;O;DEP;14/07/1963;Autre profession;2
+81;TARN;2ème circonscription;M. VALAX Jacques;SOC;66,69%;O;DEP;23/08/1951;Avocat;2
+81;TARN;3ème circonscription;Mme GOURJADE Linda;SOC;50,25%;;;13/07/1962;Fonctionnaire de catégorie A;2
+82;TARN ET GARONNE;1ère circonscription;Mme RABAULT Valérie;SOC;54,09%;;;25/04/1973;Ingénieur;2
+82;TARN ET GARONNE;2ème circonscription;Mme PINEL Sylvia;RDG;59,86%;O;DEP,MIN;28/09/1977;Autre profession;2
+83;VAR;1ère circonscription;Mme LEVY Geneviève;UMP;62,52%;O;DEP;24/02/1948;Autre profession libérale;2
+83;VAR;2ème circonscription;M. VITEL Philippe;UMP;40,13%;O;DEP;22/02/1955;Chirurgien;2
+83;VAR;3ème circonscription;M. GIRAN Jean-Pierre;UMP;43,41%;O;DEP;09/01/1947;Professeur de faculté;2
+83;VAR;4ème circonscription;M. COUVE Jean-Michel;UMP;56,17%;O;DEP;03/01/1940;Retraité des professions libérales;2
+83;VAR;5ème circonscription;M. GINESTA Jordi Dit Georges;UMP;59,64%;O;DEP;08/07/1942;Agent général d'assurances;2
+83;VAR;6ème circonscription;Mme PONS Josette;UMP;60,67%;O;DEP;12/12/1947;Sans profession déclarée;2
+83;VAR;7ème circonscription;M. VIALATTE Jean Sébastien;UMP;41,65%;O;DEP;30/01/1951;Pharmacien;2
+83;VAR;8ème circonscription;M. AUDIBERT-TROIN Olivier;UMP;40,53%;;;16/08/1960;Agent général d'assurances;2
+84;VAUCLUSE;1ère circonscription;Mme FOURNIER-ARMAND Michèle;SOC;45,25%;;;28/07/1946;Sans profession déclarée;2
+84;VAUCLUSE;2ème circonscription;M. BOUCHET Jean-Claude;UMP;55,54%;O;DEP;02/05/1957;Industriel-Chef entreprise;2
+84;VAUCLUSE;3ème circonscription;Mme MARECHAL-LE PEN Marion;FN;42,09%;;;10/12/1989;Etudiant;2
+84;VAUCLUSE;4ème circonscription;M. BOMPARD Jacques;EXD;58,77%;;MAI;24/02/1943;Retraité des professions libérales;2
+84;VAUCLUSE;5ème circonscription;M. AUBERT Julien;UMP;50,33%;;;11/06/1978;Grands corps de l'état;2
+85;VENDEE;1ère circonscription;M. LEBOEUF Alain;DVD;53,19%;;;02/02/1964;Cadre supérieur (secteur privé);2
+85;VENDEE;2ème circonscription;Mme BULTEAU Sylviane;SOC;51,79%;;;21/04/1964;Fonctionnaire de catégorie B;2
+85;VENDEE;3ème circonscription;M. MOREAU Yannick;DVD;54,22%;;;04/08/1975;Sans profession déclarée;2
+85;VENDEE;4ème circonscription;Mme BESSE Véronique;DVD;57,04%;O;DEP;11/08/1963;Permanent politique;1
+85;VENDEE;5ème circonscription;M. FOURAGE Hugues;SOC;51,44%;;;04/06/1965;Fonctionnaire de catégorie A;2
+86;VIENNE;1ère circonscription;M. CLAEYS Alain;SOC;65,64%;O;DEP;25/08/1948;Professeur de faculté;2
+86;VIENNE;2ème circonscription;Mme COUTELLE Catherine;SOC;63,24%;O;DEP;02/04/1945;Retraité de l'enseignement;2
+86;VIENNE;3ème circonscription;M. CLEMENT Jean-Michel;SOC;61,28%;O;DEP;31/10/1954;Avocat;2
+86;VIENNE;4ème circonscription;Mme MASSONNEAU Véronique;VEC;50,67%;;;17/07/1959;Employé (secteur privé);2
+87;HAUTE VIENNE;1ère circonscription;M. RODET Alain;SOC;69,04%;O;DEP,MAI;04/06/1944;Autre profession libérale;2
+87;HAUTE VIENNE;2ème circonscription;M. BOISSERIE Daniel;SOC;68,71%;O;DEP,MAI;08/06/1946;Architecte;2
+87;HAUTE VIENNE;3ème circonscription;Mme BEAUBATIE Catherine;SOC;58,12%;;;10/02/1964;Professeur du secondaire et techn.;2
+88;VOSGES;1ère circonscription;M. HEINRICH Michel;UMP;56,74%;O;DEP;15/02/1946;Retraité des professions libérales;2
+88;VOSGES;2ème circonscription;M. CHERPION Gérard;UMP;50,88%;O;DEP;15/03/1948;Retraité des professions libérales;2
+88;VOSGES;3ème circonscription;M. VANNSON François;UMP;52,69%;O;DEP;22/10/1962;Autre profession;2
+88;VOSGES;4ème circonscription;M. FRANQUEVILLE Christian;SOC;50,37%;;;14/05/1949;Autre profession;2
+89;YONNE;1ère circonscription;M. LARRIVE Guillaume;UMP;51,64%;;;24/01/1977;Grands corps de l'état;2
+89;YONNE;2ème circonscription;M. CAULLET Jean-Yves;SOC;50,25%;;;08/02/1957;Grands corps de l'état;2
+89;YONNE;3ème circonscription;Mme FORT Marie-Louise;UMP;55,28%;O;DEP;03/12/1950;Sans profession déclarée;2
+90;TERRITOIRE DE BELFORT;1ère circonscription;M. MESLOT Damien;UMP;56,22%;O;DEP;11/11/1964;Autre cadre (secteur privé);2
+90;TERRITOIRE DE BELFORT;2ème circonscription;M. ZUMKELLER Michel;PRV;51,74%;O;DEP;21/01/1966;Cadre supérieur (secteur privé);2
+91;ESSONNE;1ère circonscription;M. VALLS Manuel;SOC;65,58%;O;MIN;13/08/1962;Permanent politique;2
+91;ESSONNE;2ème circonscription;M. MARLIN Franck;UMP;58,98%;O;DEP;30/09/1964;Permanent politique;2
+91;ESSONNE;3ème circonscription;M. POUZOL Michel;SOC;52,98%;;;05/07/1962;Cadre sup. (entreprises publiques);2
+91;ESSONNE;4ème circonscription;Mme KOSCIUSKO-MORIZET Nathalie;UMP;51,48%;;DEP;14/05/1973;Grands corps de l'état;2
+91;ESSONNE;5ème circonscription;Mme OLIVIER Maud;SOC;54,81%;;;20/02/1953;Autre cadre (secteur privé);2
+91;ESSONNE;6ème circonscription;M. LAMY François;SOC;57,77%;O;MIN;31/10/1959;Enseignant 1er deg.-directeur école;2
+91;ESSONNE;7ème circonscription;Mme SAS Eva;VEC;53,90%;;;13/08/1970;Cadre supérieur (secteur privé);2
+91;ESSONNE;8ème circonscription;M. DUPONT-AIGNAN Nicolas;DVD;61,39%;O;DEP;07/03/1961;Fonctionnaire de catégorie A;2
+91;ESSONNE;9ème circonscription;M. MANDON Thierry;SOC;56,75%;;;30/12/1957;Autre profession;2
+91;ESSONNE;10ème circonscription;M. BOUTIH Malek;SOC;56,84%;;;27/10/1964;Cadre supérieur (secteur privé);2
+92;HAUTS DE SEINE;1ère circonscription;M. BACHELAY Alexis;SOC;100,00%;;;19/08/1973;Fonctionnaire de catégorie A;2
+92;HAUTS DE SEINE;2ème circonscription;M. PIETRASANTA Sébastien;SOC;53,53%;;;07/08/1977;Professeur du secondaire et techn.;2
+92;HAUTS DE SEINE;3ème circonscription;M. KOSSOWSKI Jacques;UMP;57,22%;O;DEP;11/10/1940;Retr.artis.commerc.chef d entrep.;2
+92;HAUTS DE SEINE;4ème circonscription;Mme FRAYSSE Jacqueline;FG;59,14%;O;DEP;25/02/1947;Médecin;2
+92;HAUTS DE SEINE;5ème circonscription;M. BALKANY Patrick;UMP;51,40%;O;DEP;16/08/1948;Sans profession déclarée;2
+92;HAUTS DE SEINE;6ème circonscription;M. FROMANTIN Jean-Christophe;DVD;51,22%;;;30/08/1962;Industriel-Chef entreprise;2
+92;HAUTS DE SEINE;7ème circonscription;M. OLLIER Patrick;UMP;63,04%;O;DEP;17/12/1944;Autre profession;2
+92;HAUTS DE SEINE;8ème circonscription;M. GUILLET Jean-Jacques;UMP;54,21%;O;DEP;16/10/1946;Retr.artis.commerc.chef d entrep.;2
+92;HAUTS DE SEINE;9ème circonscription;M. SOLERE Thierry;DVD;39,35%;;;17/08/1971;Autre profession libérale;2
+92;HAUTS DE SEINE;10ème circonscription;M. SANTINI André;NCE;53,26%;O;DEP;20/10/1940;Professeur de faculté;2
+92;HAUTS DE SEINE;11ème circonscription;Mme SOMMARUGA Julie;SOC;64,22%;;;01/08/1975;Autre profession;2
+92;HAUTS DE SEINE;12ème circonscription;M. GERMAIN Jean-Marc;SOC;50,44%;;;12/06/1966;Fonctionnaire de catégorie A;2
+92;HAUTS DE SEINE;13ème circonscription;M. DEVEDJIAN Patrick;UMP;50,18%;O;DEP,PCG;26/08/1944;Autre profession;2
+93;SEINE SAINT-DENIS;1ère circonscription;M. LE ROUX Bruno;SOC;100,00%;O;DEP;02/05/1965;Cadre supérieur (secteur privé);2
+93;SEINE SAINT-DENIS;2ème circonscription;M. HANOTIN Mathieu;SOC;53,50%;;;22/08/1978;Autre profession;2
+93;SEINE SAINT-DENIS;3ème circonscription;M. PAJON Michel;SOC;60,38%;O;DEP;30/06/1949;Professeur de faculté;2
+93;SEINE SAINT-DENIS;4ème circonscription;Mme BUFFET Marie-George;FG;100,00%;O;DEP;07/05/1949;Employé (secteur privé);2
+93;SEINE SAINT-DENIS;5ème circonscription;M. LAGARDE Jean-Christophe;NCE;56,73%;O;DEP;24/10/1967;Sans profession déclarée;2
+93;SEINE SAINT-DENIS;6ème circonscription;Mme GUIGOU Elisabeth;SOC;100,00%;O;DEP;06/08/1946;Sans profession déclarée;2
+93;SEINE SAINT-DENIS;7ème circonscription;M. HAMMADI Razzy;SOC;100,00%;;;22/01/1979;Autre profession;2
+93;SEINE SAINT-DENIS;8ème circonscription;Mme POCHON Elisabeth;SOC;50,85%;;;19/04/1954;Profession rattachée à l'enseignt.;2
+93;SEINE SAINT-DENIS;9ème circonscription;M. BARTOLONE Claude;SOC;75,30%;O;DEP,PCG;29/07/1951;Autre profession;2
+93;SEINE SAINT-DENIS;10ème circonscription;M. GOLDBERG Daniel;SOC;55,95%;O;DEP;24/08/1965;Professeur du secondaire et techn.;2
+93;SEINE SAINT-DENIS;11ème circonscription;M. ASENSI François;FG;100,00%;O;DEP;01/06/1945;Agent technique et technicien;2
+93;SEINE SAINT-DENIS;12ème circonscription;M. POPELIN Pascal;SOC;54,10%;;;27/02/1967;Fonctionnaire de catégorie A;2
+94;VAL DE MARNE;1ère circonscription;M. PLAGNOL Henri;UMP;56,96%;O;DEP;11/02/1961;Grands corps de l'état;2
+94;VAL DE MARNE;2ème circonscription;M. CATHALA Laurent;SOC;69,52%;O;DEP;21/09/1945;Retraité fonct.publique (sf enseig.);2
+94;VAL DE MARNE;3ème circonscription;M. SCHWARTZENBERG Roger-Gérard;RDG;52,02%;;;17/04/1943;Professeur de faculté;2
+94;VAL DE MARNE;4ème circonscription;M. BENISTI Jacques-Alain;UMP;50,09%;O;DEP;10/04/1952;Autre cadre (secteur privé);2
+94;VAL DE MARNE;5ème circonscription;M. CARREZ Gilles;UMP;54,06%;O;DEP;29/08/1948;Grands corps de l'état;2
+94;VAL DE MARNE;6ème circonscription;Mme ABEILLE Laurence;VEC;50,95%;;;17/06/1960;Autre cadre (secteur privé);2
+94;VAL DE MARNE;7ème circonscription;M. BRIDEY Jean-Jacques;SOC;54,83%;;;07/05/1953;Cadre supérieur (secteur privé);2
+94;VAL DE MARNE;8ème circonscription;M. HERBILLON Michel;UMP;56,40%;O;DEP;06/03/1951;Autre profession;2
+94;VAL DE MARNE;9ème circonscription;M. ROUQUET René;SOC;70,71%;O;DEP;15/02/1946;Autre retraité;2
+94;VAL DE MARNE;10ème circonscription;M. LAURENT Jean-Luc;DVG;100,00%;;;23/06/1957;Sans profession déclarée;2
+94;VAL DE MARNE;11ème circonscription;M. LE BOUILLONNEC Jean-Yves;SOC;100,00%;O;DEP;15/09/1950;Avocat;2
+95;VAL D'OISE;1ère circonscription;M. HOUILLON Philippe;UMP;51,84%;O;DEP;15/12/1951;Avocat;2
+95;VAL D'OISE;2ème circonscription;M. PONIATOWSKI Axel;UMP;50,86%;O;DEP;03/08/1951;Permanent politique;2
+95;VAL D'OISE;3ème circonscription;M. CARPENTIER Jean-Noël;DVG;52,05%;;;09/12/1969;Autre cadre (secteur privé);2
+95;VAL D'OISE;4ème circonscription;M. SEBAOUN Gérard;SOC;50,25%;;;28/11/1950;Médecin;2
+95;VAL D'OISE;5ème circonscription;M. DOUCET Philippe;SOC;59,27%;;MAI;16/05/1961;Cadre supérieur (secteur privé);2
+95;VAL D'OISE;6ème circonscription;M. SCELLIER François;UMP;50,49%;O;DEP;07/05/1936;Retraité fonct.publique (sf enseig.);2
+95;VAL D'OISE;7ème circonscription;M. CHARTIER Jérôme;UMP;50,29%;O;DEP;14/11/1966;Retr.artis.commerc.chef d entrep.;2
+95;VAL D'OISE;8ème circonscription;M. PUPPONI François;SOC;66,30%;O;DEP;31/07/1962;Grands corps de l'état;2
+95;VAL D'OISE;9ème circonscription;M. BLAZY Jean-Pierre;SOC;55,96%;;;24/11/1949;Retraité de l'enseignement;2
+95;VAL D'OISE;10ème circonscription;M. LEFEBVRE Dominique;SOC;62,04%;;;07/05/1956;Grands corps de l'état;2
+ZA;GUADELOUPE;1ère circonscription;M. JALTON Eric;SOC;66,79%;O;DEP;16/09/1961;Dentiste;2
+ZA;GUADELOUPE;2ème circonscription;Mme LOUIS-CARABIN Gabrielle;DVG;71,75%;O;DEP;20/02/1946;Retraité fonct.publique (sf enseig.);2
+ZA;GUADELOUPE;3ème circonscription;M. CHALUS Ary;DVG;51,15%;;;06/12/1961;Agent technique et technicien;2
+ZA;GUADELOUPE;4ème circonscription;M. LUREL Victorin;SOC;67,23%;O;MIN,PCR;20/08/1951;Cadre sup. (entreprises publiques);1
+ZB;MARTINIQUE;1ère circonscription;M. MARIE-JEANNE Alfred;REG;52,43%;O;DEP;15/11/1936;Retraité de l'enseignement;2
+ZB;MARTINIQUE;2ème circonscription;M. AZEROT Bruno Nestor;DVG;55,47%;;;22/07/1961;Commercant;2
+ZB;MARTINIQUE;3ème circonscription;M. LETCHIMY Serge;DVG;70,24%;O;DEP,PCR;13/01/1953;Autre profession libérale;2
+ZB;MARTINIQUE;4ème circonscription;M. NILOR Jean-Philippe;REG;69,41%;;;15/05/1965;Autre profession;2
+ZC;GUYANE;1ère circonscription;M. SERVILLE Gabriel;SOC;54,70%;;;27/09/1959;Profession rattachée à l'enseignt.;2
+ZC;GUYANE;2ème circonscription;Mme BERTHELOT Chantal;SOC;61,00%;O;DEP;12/09/1958;Agriculteur-propriétaire exploit.;2
+ZD;LA REUNION;1ère circonscription;Mme BAREIGTS Ericka;SOC;55,17%;;;16/04/1967;Fonctionnaire de catégorie A;2
+ZD;LA REUNION;2ème circonscription;Mme BELLO Huguette;DVG;67,14%;O;DEP;24/08/1950;Retraité de l'enseignement;1
+ZD;LA REUNION;3ème circonscription;M. VLODY Jean Jacques;SOC;60,06%;;;19/08/1967;Professeur du secondaire et techn.;2
+ZD;LA REUNION;4ème circonscription;M. LEBRETON Patrick;SOC;51,13%;O;DEP;06/09/1963;Fonctionnaire de catégorie B;1
+ZD;LA REUNION;5ème circonscription;M. FRUTEAU Jean-Claude;SOC;67,74%;O;DEP;06/06/1947;Retraité de l'enseignement;2
+ZD;LA REUNION;6ème circonscription;Mme ORPHE Monique;SOC;58,85%;;;15/10/1964;Enseignant 1er deg.-directeur école;2
+ZD;LA REUNION;7ème circonscription;M. ROBERT Thierry;CEN;66,90%;;;01/04/1977;Industriel-Chef entreprise;2
+ZM;MAYOTTE;1ère circonscription;M. SAID Boinali;DVG;59,00%;;;25/09/1960;Enseignant 1er deg.-directeur école;2
+ZM;MAYOTTE;2ème circonscription;M. ABOUBACAR Ibrahim;SOC;54,95%;;;01/02/1965;Sans profession déclarée;2
+ZN;NOUVELLE CALEDONIE;1ère circonscription;Mme LAGARDE Sonia;DVD;53,93%;;;29/08/1948;Commercant;2
+ZN;NOUVELLE CALEDONIE;2ème circonscription;M. GOMES Philippe;DVD;52,55%;;;27/10/1958;Fonctionnaire de catégorie A;2
+ZP;POLYNESIE FRANCAISE;1ère circonscription;M. FRITCH Edouard;DVD;63,36%;;;04/01/1952;Permanent politique;2
+ZP;POLYNESIE FRANCAISE;2ème circonscription;M. TAHUAITU Jonas;DVD;53,42%;;;16/08/1944;Retraité fonct.publique (sf enseig.);2
+ZP;POLYNESIE FRANCAISE;3ème circonscription;M. TUAIVA Jean-Paul;DVD;50,24%;;;30/10/1972;Commercant;2
+ZS;SAINT PIERRE ET MIQUELON;Saint-Pierre-et-Miquelon;Mme GIRARDIN Annick;RDG;65,52%;O;DEP;03/08/1964;Fonctionnaire de catégorie A;1
+ZW;WALLIS-ET-FUTUNA;1ère circonscription;M. VERGE David;DVD;41,61%;;;10/01/1972;Commercant;2
+ZX;SAINT-MARTIN/SAINT-BARTHELEMY;1ère circonscription;M. GIBBES Daniel;UMP;52,29%;;;08/01/1968;Notaire;2
+ZZ;FRANCAIS DE L'ETRANGER;1ère circonscription;Mme NARASSIGUIN Corinne;SOC;54,01%;;;07/03/1975;Ingénieur;2
+ZZ;FRANCAIS DE L'ETRANGER;2ème circonscription;M. CORONADO Sergio;VEC;53,63%;;;13/05/1970;Profession rattachée à l'enseignt.;2
+ZZ;FRANCAIS DE L'ETRANGER;3ème circonscription;Mme LEMAIRE Axelle;SOC;54,76%;;;18/10/1974;Sans profession déclarée;2
+ZZ;FRANCAIS DE L'ETRANGER;4ème circonscription;M. CORDERY Philip;SOC;53,16%;;;17/04/1966;Autre cadre (secteur privé);2
+ZZ;FRANCAIS DE L'ETRANGER;5ème circonscription;M. LEROY Arnaud;SOC;52,67%;;;23/04/1976;Autre profession;2
+ZZ;FRANCAIS DE L'ETRANGER;6ème circonscription;Mme SCHMID Claudine;UMP;57,54%;;;13/09/1955;Sans profession déclarée;2
+ZZ;FRANCAIS DE L'ETRANGER;7ème circonscription;M. LE BORGN Pierre-Yves;SOC;56,90%;;;04/11/1964;Cadre supérieur (secteur privé);2
+ZZ;FRANCAIS DE L'ETRANGER;8ème circonscription;Mme POZNANSKI-BENHAMOU Daphna;SOC;55,88%;;;03/06/1950;Autre profession libérale;2
+ZZ;FRANCAIS DE L'ETRANGER;9ème circonscription;M. AMIRSHAHI Pouria;SOC;62,39%;;;27/03/1972;Permanent politique;2
+ZZ;FRANCAIS DE L'ETRANGER;10ème circonscription;M. MARSAUD Alain;UMP;53,13%;;;08/03/1949;Magistrat;2
+ZZ;FRANCAIS DE L'ETRANGER;11ème circonscription;M. MARIANI Thierry;UMP;52,15%;;;08/08/1958;Autre profession;2

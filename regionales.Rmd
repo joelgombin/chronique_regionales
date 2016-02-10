@@ -1,0 +1,248 @@
+---
+title: "À gauche, dernier inventaire avant législatives"
+author: "Joël Gombin"
+date: "10 février 2016"
+output: 
+  html_document: 
+    self_contained: no
+---
+
+_Note : Dans tous les tableaux, les colonnes peuvent être filtrées et triées._
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE,
+                      message = FALSE,
+                      warning = FALSE)
+```
+
+```{r packages}
+library(knitr)
+library(readr)
+library(stringr)
+library(dplyr)
+library(tidyr)
+library(DT)
+library(tmap)
+library(maptools)
+```
+
+```{r data}
+
+reg15_circ_T1 <- read_csv2("./data/R2015_gougou_circo_T1.csv")
+deputes <- read_csv2("./data/deputes.csv")
+deputes <- deputes %>% 
+  mutate(circo = paste0(Dpt, str_pad(str_extract(`Nom de la Circonscription`, regex("^[0-9]{1,2}")), 2, pad = "0")))
+
+
+
+reg15_circ_T1ins <- reg15_circ_T1 %>%
+  mutate(Abstention = INS - VOT) %>% 
+  mutate_each(funs(. / INS * 100), Abstention, BLA, NUL, EXG:EXD) %>%
+  gather(key = "vote", value = "value", Abstention, BLA, NUL, EXG:EXD) %>%
+  mutate(vote = paste0(vote, ".ins")) %>%
+  spread(key = vote, value = value)
+
+reg15_circ_T1exp <- reg15_circ_T1 %>%
+  mutate_each(funs(. / EXP * 100), EXG:EXD) %>%
+  gather(key = "vote", value = "value", EXG:EXD) %>%
+  mutate(vote = paste0(vote, ".exp")) %>%
+  spread(key = vote, value = value)
+
+reg15_circ_T1 <- bind_cols(reg15_circ_T1, reg15_circ_T1ins %>% select(Abstention.ins, BLA.ins, NUL.ins, DIV.ins:UDI.ins), reg15_circ_T1exp %>% select(DIV.exp:UDI.exp))
+
+reg15_circ_T1$circo <- paste0(reg15_circ_T1$DPT, reg15_circ_T1$CIRC)
+
+reg15_circ_T1$Député <- deputes[match(reg15_circ_T1$circo, deputes$circo), ][["Désignation"]]
+
+reg15_circ_T1 <- reg15_circ_T1 %>% 
+  filter(DPT %in% c("04", "05", "06", "13", "83", "84"))
+
+```
+
+Les élections régionales de décembre dernier ont évidemment été un choc majeur pour la gauche régionale, contrainte à être absente du second tour, soit parce qu'elle s'est retirée (parti socialiste et ses alliés), soit parce qu'elle n'a pas été capable de se qualifier pour le second tour (écologistes et Front de gauche). La suite va être difficile à préparer, la gauche étant désormais absente de l'hémicycle régionale, mais aussi des exécutifs départementaux -- à l'exception des Alpes de Haute-Provence -- comme de la plupart des grandes villes. Pour autant, gageons que les cadors de la gauche régionale ont déjà les yeux rivés sur 2017 -- pas tant sur la présidentielle que sur les élections législatives. 
+
+De ce point de vue, les élections régionales de l'an dernier fournissent le dernier rapport de force susceptible d'éclairer les états-majors dans la préparation de ce rendez-vous électoral. Elles sont et seront en particulier scrutées de très près pour établir les stratégies, notamment les stratégies d'union à gauche -- Manuel Valls n'a-t-il pas à de nombreuses reprises blâmé la gauche non socialiste pour les défaites face au FN ? Aujourd'hui, je vous livre quelques éléments pour vous forger votre propre avis -- espérons que le débat sera aussi, un peu, citoyen !
+
+Attention ! Il s'agit là de projections des résultats des régionales sur les législatives. Il ne peut bien sûr s'agir d'un exercice prédictif : chaque élection dispose de sa propre dynamique, et dans le cas des législatives de 2017, leurs résultats seront largement déterminés à la fois par le résultat de l'élection présidentielle de 2017 et par l'offre politique dans chaque circonscription, avec en particulier une dimension personnelle qu'on ne peut ici saisir. À prendre avec précaution, donc !
+
+## Les meilleures circonscriptions pour la gauche
+
+Cette section est destinée à rester relativement vide : au vu des dernières élections régionales, il y a dans notre région bien peu de circonscriptions sûres. La seule circonscription dans laquelle le total des voix de gauche dépasse la barre des 50 % (et atteint même 51,2 %) dans la région est la 4e des Bouches-du-Rhône, celle actuellement représentée par Patrick Mennucci. Mais la gauche était fort divisée aux régionales : la liste PS n'y réalisait que 29,6 %. Le siège du député socialiste n'apparaît toutefois guère menacé. De quoi lui permettre de se poser en leader de la gauche départementale et régionale ?
+
+Deux autres circonscriptions apparaissent, sur le papier, relativement sûres pour la gauche. Dans la 7e circonscription des Bouches-du-Rhône, le total des voix de gauche atteint 41,5 % au premier tour. Mais, dans ce fief (fragilisé !) du député Henri Jibrayel, au cœur des quartiers Nord de Marseille, la menace frontiste est réelle : la liste Maréchal-Le Pen-Ravier y obtient 38,6 % des voix au premier tour, loin devant les 24,6 % de la liste socialiste. Henri Jibrayel l'avait pourtant largement emporté en 2012 face à Bernard Marandat (FN)... Gageons qu'on va continuer de croiser les Jibrayel, père et fils, régulièrement de l'Estaque au Canet en passant par Saint-Antoine. 
+
+L'autre circonscription assez sûre au vu des résultats des régionales est la 2e des Alpes de Haute-Provence, celle-là même du candidat socialiste, Christophe Castaner. Le total des voix de gauche atteint tout juste les 40 %, mais là encore avec un Front national en embuscade à 33 %, qui se paie le luxe de passer devant la liste Castaner (30,6 %) dans son propre fief. On comprend que, dès le soir du premier tour, [le maire de Forcalquier ait ressenti le besoin de travailler sa "circo"](http://lelab.europe1.fr/video-pendant-ce-temps-christophe-castaner-teste-une-piste-de-luge-dete-2634763)... 
+
+
+
+
+```{r meilleures_circos, results='asis', include=FALSE}
+
+reg15_circ_T1 %>%
+  mutate(gauche = EXG.exp + PCF.exp + FG.exp + `EELV-GR.exp` + EELV.exp + `PS-EELV.exp` + PS.exp + DVG.exp + GEC.exp) %>% 
+  select(DPT, CIRC, gauche, PS.exp, `EELV-GR.exp`, FN.exp, UD.exp, Député) %>%
+  arrange(-gauche) %>%
+  filter(gauche > 40) %>% 
+  mutate_each(funs(round(., digits = 1)), gauche, PS.exp, `EELV-GR.exp`, FN.exp, UD.exp) %>% 
+  datatable(colnames = c("Département","Circonscription", "Total gauche", "PS", "EELV-FdG", "FN", "Droite", "Député"), filter = "top", options = list(dom = 'tip'), rownames = FALSE, caption = "Résultats en % des exprimés")
+
+```
+
+## Les circonscriptions où la gauche est virtuellement éliminée au second tour
+
+Dans un grand nombre de circonscriptions de PACA, en revanche, la gauche -- même si elle était unie -- risque fort d'être éliminée dès le soir du premier tour des élections législatives, si l'on en croit les résultats des régionales. Dans pas moins de 22 circonscriptions (sur les 42 circonscriptions que compte la région), le total des voix de gauche est inférieur à 12,5 % des inscrits, soit la barre à atteindre pour se qualifier au second tour des législatives. Autant dire qu'un grand nombre de ténors de la droite régionale n'ont pas trop de souci à se faire pour leur réélection, même si certains (Georges Ginesta dans la circonscription de Fréjus-Saint-Raphaël, Jean-Michel Couve dans celle, voisine, de Sainte-Maxime, Josette Pons à Brignolles, Olivier Audibert à Draguigan ou encore, sans être exhaustif, Valérie Boyer dans la 1e des Bouches-du-Rhône...) risquent sérieusement de se faire tailler des croupières par le FN. 
+
+Mais dans le lot de ces circonscriptions quasi-perdues d'avance pour la gauche, on en trouve aussi quelques unes actuellement détenues par la gauche. Il en va ainsi de la 12e circonscription des Bouches-du-Rhône (Vitrolles-Marignane-Côte bleue, représentée par Vincent Burroni -- qui a [promis de ne pas se représenter en 2017](http://www.laprovence.com/article/papier/3148306/jarreterai-apres-ce-mandat.html)) ou encore de la 3e des Bouches-du-Rhône, celle de la députée ex-PS et nouvelle condamnée (son dossier est actuellement en instance de cassation) [Sylvie Andrieux](https://marsactu.fr/?s=andrieux), [déjà élue d'un cheveu en 2012](https://marsactu.fr/bref/madonne-des-cites-depute-des-noyaux-villageois-la-carte-du-duel-andrieuxravier/). Si dans le premier cas, la victoire de la gauche avait tenu à une triangulaire serrée, dans le second la situation est plus critique : c'est un territoire historiquement acquis à la gauche socialiste qui est en totale déprise. Ici, le recul de la gauche laisse place au FN : celui-ci est même majoritaire au premier tour dans la 12e des Bouches-du-Rhône, qui pourrait bien retrouver un député frontiste en 2017.
+
+```{r elimination, results='asis'}
+
+reg15_circ_T1 %>%
+  mutate(gauche = EXG.ins + PCF.ins + FG.ins + `EELV-GR.ins` + EELV.ins + `PS-EELV.ins` + PS.ins + DVG.ins + GEC.ins) %>% 
+  select(DPT, CIRC, gauche, UD.exp, FN.exp, Député) %>%
+  filter(gauche < 12.5) %>% 
+  arrange(gauche) %>%
+  mutate_each(funs(round(., digits = 1)), gauche, UD.exp, FN.exp) %>% 
+  datatable(colnames = c("Département","Circonscription", "Total gauche", "Droite", "FN", "Député"), filter = "top", options = list(dom = 'tip'), rownames = FALSE, caption = "Résultats en % des inscrits pour la gauche, des exprimés pour la droite et le FN")
+
+```
+
+La carte ci-dessous permet de localiser ces circonscriptions dans lesquelles, même si la gauche était unie dès le premier tour elle ne se qualifierait pas pour le second tour. Cela concerne notamment l'ensemble des Alpes-Maritimes et du Var, et tout le nord du Vaucluse. La disparition de la gauche est donc bien avancée dans de larges pans du territoire régional...
+
+```{r carte_elimination}
+load("./data/circosSHP_v3.RData")
+load("./data/departements.Rdata")
+
+fdc <- fdc[fdc@data$dpt %in% c("04", "05", "06", "13", "83", "84"),]
+fdc$IDEN <- as.character(fdc$IDEN)
+fdc@data <- fdc@data[,"IDEN", drop = FALSE]
+
+departements <- departements[departements@data$CODE_DEPT %in% c("04","05","06","13","83","84"),]
+
+
+
+tmap_mode("view")
+
+reg15_circ_T1 %>% 
+  mutate(gauche = round(EXG.ins + PCF.ins + FG.ins + `EELV-GR.ins` + EELV.ins + `PS-EELV.ins` + PS.ins + DVG.ins + GEC.ins, 1)) %>% 
+  mutate(Circonscription = paste0(DPT, CIRC)) %>% 
+  select(Circonscription, gauche, Député) %>%
+  mutate(éliminé = gauche < 12.5) %>% 
+  filter(éliminé) %>% 
+  append_data(fdc, data = ., key.shp = "IDEN", key.data = "Circonscription") %>% 
+  tm_shape() +
+  tm_fill(col = "éliminé", legend.format = list(text.separator = "à"), title = "Total gauche < 12.5 % des inscrits") +
+  tm_shape(departements) +
+  tm_borders(lty = "dotdash") +
+  tm_legend(legend.position = c("left", "bottom")) +
+  tm_view(popup.all.data = FALSE)
+
+```
+
+## Les circonscriptions où la gauche passe 12,5 % des inscrits mais pas séparément
+
+Ce sont les circonscriptions où les questionnements stratégiques seront les plus vifs à gauche : celles dans lesquelles, lors du premier tour des élections régionales, la gauche dans son ensemble passe la barre de 12,5 % des inscrits sans qu'aucune liste ne la franchisse seule. On en compte 17 dans la région, qui sont récapitulées dans le tableau ci-dessous. 13 d'entre elles sont situées dans les Bouches-du-Rhône : les dirigeants des différents partis de gauche dans ce département vont avoir fort à faire s'ils ne veulent pas voir la gauche disparaître du paysage politique bucco-rhôdanien. Jean-David Ciot et Patrick Mennucci sont d'ailleurs tous deux dans cette situation dans leur propre circonscription -- même si "l'équation personnelle" jouera sans doute le jour venu. Le Vaucluse sera également un enjeu important (voir carte ci-dessous).
+
+```{r elimination_2, results='asis'}
+
+reg15_circ_T1 %>%
+  rowwise %>% 
+  mutate(gauche = EXG.ins + PCF.ins + FG.ins + `EELV-GR.ins` + EELV.ins + `PS-EELV.ins` + PS.ins + DVG.ins + GEC.ins) %>% 
+  filter(gauche > 12.5,
+         all(c(EXG.ins, PCF.ins, FG.ins, `EELV-GR.ins`, EELV.ins, `PS-EELV.ins`, PS.ins, DVG.ins, GEC.ins) < 12.5, na.rm = TRUE)) %>% 
+  arrange(gauche) %>%
+  mutate_each(funs(round(., digits = 1)), gauche, EXG.ins, PCF.ins, FG.ins, `EELV-GR.ins`, EELV.ins, `PS-EELV.ins`, PS.ins, DVG.ins, GEC.ins) %>% 
+  select(DPT, CIRC, gauche, EXG.ins, `EELV-GR.ins`, PS.ins, DVG.ins, Député) %>%
+  datatable(colnames = c("Département","Circonscription", "Total gauche", "Extrême gauche", "EELV + gauche radicale", "PS", "DVG", "Député"), filter = "top", options = list(dom = 'tip'), rownames = FALSE, caption = "Résultats en % des inscrits")
+
+```
+
+La carte ci-dessous présente ces circonscriptions, en indiquant le total gauche (en % des inscrits). 
+
+```{r carte_elimination_2}
+reg15_circ_T1 %>%
+  rowwise %>% 
+  mutate(gauche = EXG.ins + PCF.ins + FG.ins + `EELV-GR.ins` + EELV.ins + `PS-EELV.ins` + PS.ins + DVG.ins + GEC.ins) %>% 
+  filter(gauche > 12.5,
+         all(c(EXG.ins, PCF.ins, FG.ins, `EELV-GR.ins`, EELV.ins, `PS-EELV.ins`, PS.ins, DVG.ins, GEC.ins) < 12.5, na.rm = TRUE)) %>% 
+  arrange(gauche) %>%
+  mutate_each(funs(round(., digits = 1)), gauche, EXG.ins, PCF.ins, FG.ins, `EELV-GR.ins`, EELV.ins, `PS-EELV.ins`, PS.ins, DVG.ins, GEC.ins) %>% 
+  mutate(Circonscription = paste0(DPT, CIRC)) %>% 
+  select(Circonscription, gauche, EXG.ins, `EELV-GR.ins`, PS.ins, DVG.ins, Député) %>% 
+  append_data(fdc, data = ., key.shp = "IDEN", key.data = "Circonscription") %>% 
+  tm_shape() +
+  tm_fill(col = "gauche", title = "Total gauche", legend.format = list(text.separator = "à")) +
+  tm_shape(departements) +
+  tm_borders(lty = "dotdash") +
+  tm_legend(legend.position = c("left", "bottom")) +
+  tm_view(popup.all.data = FALSE)
+
+```
+
+
+## Les circonscriptions dans lesquelles le FN serait en tête et la gauche troisième
+
+Lors du premier tour des élections régionales, il y a 27 circonscriptions dans lesquelles le FN arrive en tête et la meilleure des listes de gauche troisième. Dans trois d'entre elles (la 14e des Bouches-du-Rhône, la 5e des Hautes-Alpes et la 5e des Bouches-du-Rhône), le total gauche est supérieur au score du FN (et donc aussi au score de la droite). On parie que Jean-David Ciot, Marie-Arlette Carlotti et Joël Giraud -- les élus sortants de ces circonscriptions -- vont être d'ardents défenseurs de l'union des gauches d'ici à 2017 ?
+
+Dans 11 de ces circonscriptions, le total gauche est supérieur au score de la droite tout en étant inférieur au score du FN, et permettrait donc à la gauche unie d'être seconde au premier tour. Vous pouvez utiliser les filtres dans le tableau ci-dessous pour explorer ces différentes configurations.
+
+```{r troisieme}
+
+reg15_circ_T1 %>%
+  rowwise %>% 
+  mutate(gauche = round(EXG.exp + PCF.exp + FG.exp + `EELV-GR.exp` + EELV.exp + `PS-EELV.exp` + PS.exp + DVG.exp + GEC.exp, 1)) %>% 
+  gather(key = "Nuance", value = "Score", DIV.exp:UDI.exp) %>% 
+  group_by(Circonscription = paste0(DPT, CIRC)) %>% 
+  select(DPT, Nuance, Score, gauche, Député) %>% 
+  filter(any((rank(desc(Score)) == 1 & Nuance == "FN.exp")) & 
+           any((rank(desc(Score)) == 3 & Nuance %in% c("EXG.exp", "PCF.exp", "FG.exp", "EELV-GR.exp", "EELV.exp", "PS-EELV.exp", "PS.exp", "DVG.exp", "GEC.exp")))) %>% 
+  filter(rank(desc(Score)) < 4) %>% 
+  ungroup %>% 
+  filter(Score > 0) %>% 
+  mutate(Score = round(Score, 1)) %>% 
+  spread(Nuance, Score) %>% 
+  filter(!is.na(UD.exp)) %>% 
+  arrange(-FN.exp) %>% 
+  mutate(gauche_devant_FN = ifelse(gauche > FN.exp, "oui", "non"),
+         gauche_devant_droite = ifelse(gauche > UD.exp, "oui", "non")) %>% 
+  select(DPT, Circonscription, gauche, FN.exp, PS.exp, UD.exp, gauche_devant_FN, gauche_devant_droite, Député) %>% 
+  datatable(colnames = c("Département", "Circonscription", "Total gauche", "Front national", "PS", "Union de la droite", "Total gauche devant FN ?", "Total gauche devant droite ?", "Député"), filter = "top", options = list(dom = 'tip', pageLength = 20), rownames = FALSE, caption = "Résultats en % des exprimés des trois premières listes")
+
+```
+
+La carte ci-dessous représente ces circonscriptions, colorées en fonction du rang qu'atteindrait le total des voix de gauche si celle-ci était représentée par un seul candidat (gris : premier, rouge : second, vert : troisième). 
+
+```{r carte_troisieme}
+reg15_circ_T1 %>%
+  rowwise %>% 
+  mutate(gauche = round(EXG.exp + PCF.exp + FG.exp + `EELV-GR.exp` + EELV.exp + `PS-EELV.exp` + PS.exp + DVG.exp + GEC.exp, 1)) %>% 
+  gather(key = "Nuance", value = "Score", DIV.exp:UDI.exp) %>% 
+  group_by(Circonscription = paste0(DPT, CIRC)) %>% 
+  select(DPT, Nuance, Score, gauche, Député) %>% 
+  filter(any((rank(desc(Score)) == 1 & Nuance == "FN.exp")) & 
+           any((rank(desc(Score)) == 3 & Nuance %in% c("EXG.exp", "PCF.exp", "FG.exp", "EELV-GR.exp", "EELV.exp", "PS-EELV.exp", "PS.exp", "DVG.exp", "GEC.exp")))) %>% 
+  filter(rank(desc(Score)) < 4) %>% 
+  ungroup %>% 
+  filter(Score > 0) %>% 
+  mutate(Score = round(Score, 1)) %>% 
+  spread(Nuance, Score) %>% 
+  filter(!is.na(UD.exp)) %>% 
+  arrange(-FN.exp) %>% 
+  mutate(gauche_devant_FN = ifelse(gauche > FN.exp, "oui", "non"),
+         gauche_devant_droite = ifelse(gauche > UD.exp, "oui", "non"),
+         rang_gauche = ifelse(gauche_devant_FN == "oui", "1", ifelse(gauche_devant_droite == "oui", "2", "3"))) %>% 
+  select(DPT, Circonscription, gauche, FN.exp, PS.exp, UD.exp, gauche_devant_FN, gauche_devant_droite, rang_gauche, Député) %>% 
+  append_data(fdc, data = ., key.shp = "IDEN", key.data = "Circonscription") %>% 
+  tm_shape() +
+  tm_fill(col = "rang_gauche", title = "Rang de la gauche unie", legend.format = list(text.separator = "à")) +
+  tm_shape(departements) +
+  tm_borders(lty = "dotdash") +
+  tm_legend(legend.position = c("left", "bottom")) +
+  tm_view(popup.all.data = FALSE)
+```
+
+
+Les mois qui nous séparent de juin 2017 vont donc être déterminants pour la survie de la gauche régionale, en tout cas à l'échelon de la députation. Aux citoyens de glisser leur grain de sel, désormais...
+
+
+_Comme d'habitude, le code et les données de cette chronique sont disponibles sur github._
