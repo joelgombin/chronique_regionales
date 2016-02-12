@@ -103,7 +103,7 @@ reg15_circ_T1 %>%
   filter(gauche < 12.5) %>% 
   arrange(gauche) %>%
   mutate_each(funs(round(., digits = 1)), gauche, UD.exp, FN.exp) %>% 
-  datatable(colnames = c("Département","Circonscription", "Total gauche", "Droite", "FN", "Député"), filter = "top", options = list(dom = 'tip'), rownames = FALSE, caption = "Résultats en % des inscrits pour la gauche, des exprimés pour la droite et le FN")
+  datatable(colnames = c("Département","Circonscription", "Total gauche", "Droite", "FN", "Député"), filter = "top", options = list(dom = 'tip'), rownames = FALSE, caption = "Résultats en % des inscrits pour le total gauche, des exprimés pour la droite et le FN")
 
 ```
 
