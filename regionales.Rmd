@@ -230,15 +230,13 @@ reg15_circ_T1 %>%
   arrange(-FN.exp) %>% 
   mutate(gauche_devant_FN = ifelse(gauche > FN.exp, "oui", "non"),
          gauche_devant_droite = ifelse(gauche > UD.exp, "oui", "non"),
-         rang_gauche = ifelse(gauche_devant_FN == "oui", "1", ifelse(gauche_devant_droite == "oui", "2", "3"))) %>% 
+         rang_gauche = ifelse(gauche_devant_FN == "oui", 1, ifelse(gauche_devant_droite == "oui", 2, 3))) %>% 
   select(DPT, Circonscription, gauche, FN.exp, PS.exp, UD.exp, gauche_devant_FN, gauche_devant_droite, rang_gauche, Député) %>% 
   append_data(fdc, data = ., key.shp = "IDEN", key.data = "Circonscription") %>% 
   tm_shape() +
-  tm_fill(col = "rang_gauche", title = "Rang de la gauche unie", legend.format = list(text.separator = "à")) +
+  tm_fill(col = "rang_gauche", title = "Rang de la gauche unie", legend.format = list(text.separator = "à"), palette = c("#4daf4a", "#ff7f00", "#e41a1c"), labels = c("1", "2", "3")) +
   tm_shape(departements) +
-  tm_borders(lty = "dotdash") +
-  tm_legend(legend.position = c("left", "bottom")) +
-  tm_view(popup.all.data = FALSE)
+  tm_borders()
 ```
 
 
