@@ -119,23 +119,25 @@ fdc@data <- fdc@data[,"IDEN", drop = FALSE]
 
 departements <- departements[departements@data$CODE_DEPT %in% c("04","05","06","13","83","84"),]
 
-
+fdc@data$Circonscription <- fdc@data$IDEN
+fdc@data <- fdc@data[, -1, drop = FALSE]
 
 tmap_mode("view")
 
-reg15_circ_T1 %>% 
+df <- reg15_circ_T1 %>% 
   mutate(gauche = round(EXG.ins + PCF.ins + FG.ins + `EELV-GR.ins` + EELV.ins + `PS-EELV.ins` + PS.ins + DVG.ins + GEC.ins, 1)) %>% 
   mutate(Circonscription = paste0(DPT, CIRC)) %>% 
   select(Circonscription, gauche, Député) %>%
-  mutate(éliminé = gauche < 12.5) %>% 
-  filter(éliminé) %>% 
-  append_data(fdc, data = ., key.shp = "IDEN", key.data = "Circonscription") %>% 
+  mutate(éliminé = ifelse(gauche < 12.5, "Oui", "Non")) %>% 
+  filter(éliminé == "Oui")
+
+fdc@data[, "éliminé"] <- df[match(fdc@data$Circonscription, df$Circonscription), "éliminé"]
+
+  fdc %>% 
   tm_shape() +
   tm_fill(col = "éliminé", legend.format = list(text.separator = "à"), title = "Total gauche < 12.5 % des inscrits") +
   tm_shape(departements) +
-  tm_borders(lty = "dotdash") +
-  tm_legend(legend.position = c("left", "bottom")) +
-  tm_view(popup.all.data = FALSE)
+  tm_borders()
 
 ```
 
@@ -160,7 +162,7 @@ reg15_circ_T1 %>%
 La carte ci-dessous présente ces circonscriptions, en indiquant le total gauche (en % des inscrits). 
 
 ```{r carte_elimination_2}
-reg15_circ_T1 %>%
+shp <- reg15_circ_T1 %>%
   rowwise %>% 
   mutate(gauche = EXG.ins + PCF.ins + FG.ins + `EELV-GR.ins` + EELV.ins + `PS-EELV.ins` + PS.ins + DVG.ins + GEC.ins) %>% 
   filter(gauche > 12.5,
@@ -168,14 +170,16 @@ reg15_circ_T1 %>%
   arrange(gauche) %>%
   mutate_each(funs(round(., digits = 1)), gauche, EXG.ins, PCF.ins, FG.ins, `EELV-GR.ins`, EELV.ins, `PS-EELV.ins`, PS.ins, DVG.ins, GEC.ins) %>% 
   mutate(Circonscription = paste0(DPT, CIRC)) %>% 
-  select(Circonscription, gauche, EXG.ins, `EELV-GR.ins`, PS.ins, DVG.ins, Député) %>% 
-  append_data(fdc, data = ., key.shp = "IDEN", key.data = "Circonscription") %>% 
+  select(Circonscription, gauche, `Extrême-gauche`=EXG.ins, `EELV-Front de gauche` = `EELV-GR.ins`, `Parti socialiste` = PS.ins, `Divers gauche` = DVG.ins, Député)%>% 
+  append_data(fdc, data = ., key.shp = "Circonscription", key.data = "Circonscription") 
+
+shp@data <- shp@data[ ,-c(2,3)]
+ 
+shp %>% 
   tm_shape() +
   tm_fill(col = "gauche", title = "Total gauche", legend.format = list(text.separator = "à")) +
   tm_shape(departements) +
-  tm_borders(lty = "dotdash") +
-  tm_legend(legend.position = c("left", "bottom")) +
-  tm_view(popup.all.data = FALSE)
+  tm_borders()
 
 ```
 
@@ -213,7 +217,8 @@ reg15_circ_T1 %>%
 La carte ci-dessous représente ces circonscriptions, colorées en fonction du rang qu'atteindrait le total des voix de gauche si celle-ci était représentée par un seul candidat (gris : premier, rouge : second, vert : troisième). 
 
 ```{r carte_troisieme}
-reg15_circ_T1 %>%
+
+shp <- reg15_circ_T1 %>%
   rowwise %>% 
   mutate(gauche = round(EXG.exp + PCF.exp + FG.exp + `EELV-GR.exp` + EELV.exp + `PS-EELV.exp` + PS.exp + DVG.exp + GEC.exp, 1)) %>% 
   gather(key = "Nuance", value = "Score", DIV.exp:UDI.exp) %>% 
@@ -231,10 +236,14 @@ reg15_circ_T1 %>%
   mutate(gauche_devant_FN = ifelse(gauche > FN.exp, "oui", "non"),
          gauche_devant_droite = ifelse(gauche > UD.exp, "oui", "non"),
          rang_gauche = ifelse(gauche_devant_FN == "oui", 1, ifelse(gauche_devant_droite == "oui", 2, 3))) %>% 
-  select(DPT, Circonscription, gauche, FN.exp, PS.exp, UD.exp, gauche_devant_FN, gauche_devant_droite, rang_gauche, Député) %>% 
-  append_data(fdc, data = ., key.shp = "IDEN", key.data = "Circonscription") %>% 
+  select(Département = DPT, Circonscription, gauche, FN = FN.exp, PS = PS.exp, `Union de la droite` = UD.exp, `Gauche devant le FN` = gauche_devant_FN, `Gauche devant la droite` = gauche_devant_droite, `Rang de la gauche` = rang_gauche, Député) %>% 
+  append_data(fdc, data = ., key.shp = "Circonscription", key.data = "Circonscription")
+
+shp@data <- shp@data[,-c(2,4)]
+
+shp %>% 
   tm_shape() +
-  tm_fill(col = "rang_gauche", title = "Rang de la gauche unie", legend.format = list(text.separator = "à"), palette = c("#4daf4a", "#ff7f00", "#e41a1c"), labels = c("1", "2", "3")) +
+  tm_fill(col = "Rang de la gauche", title = "Rang de la gauche unie", legend.format = list(text.separator = "à"), palette = c("#4daf4a", "#ff7f00", "#e41a1c"), labels = c("1", "2", "3")) +
   tm_shape(departements) +
   tm_borders()
 ```
